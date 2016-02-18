@@ -19,3 +19,6 @@ function semverSor() {
 }
 
 semverSor(arr); // Like [ "0.12", "1.0.5", "1.2.3.4.5.6.7", "1.23.45", "1.4.50", "2.5.0" ]
+
+// Implement deepClone ( withour recursive links and functions
+// simpliest , suppose is JSON.parse(JSON.stringify(m)) but we need real code =)
