@@ -18,3 +18,10 @@ setTimeout(function() {
   say(3);
 }, 1000);
 setTimeout(say, 2000, 4);
+
+// What's wrong? How fix?
+var done = false;
+$.ajax(url, function() { done = true });
+while(!done) {
+  someWaitingStuff();
+}
