@@ -28,3 +28,4 @@ semverSor(arr); // Like [ "0.12", "1.0.5", "1.2.3.4.5.6.7", "1.23.45", "1.4.50",
 // Check if string is anagramm ( start-to-end is the same as end-to-start)
 // Like 'ololo'. 
 // Variant -- the same without spaces like 'olo lo'
+// Variant - the same in functional style
