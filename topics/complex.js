@@ -7,8 +7,26 @@ var m = [
 ];
 
 var spiral = function (m) {
- // Put your code here
-}; // Should be [0, 1, 2, 3, 4, 9, 14, 19, 18, 17, 16, 15, 10, 5, 6, 7, 8, 13, 12, 11]
+  var mCopy = JSON.parse(JSON.stringify(m));
+  var ret = [];
+  var i = 0;
+
+  do {
+    if(i === 0) {
+      ret.push.apply(ret, mCopy.shift());
+    } else if( i === 1 ) {
+      ret.push.apply(ret, mCopy.map(item => item.pop()));
+    } else if ( i === 2) {
+      ret.push.apply(ret, mCopy.pop().reverse());
+    } else if (i === 3 ) {
+      ret.push.apply(ret, mCopy.map(item => item.shift()).reverse());
+    };
+    i++;
+    i = i % 4;
+  } while (mCopy.length > 1 && mCopy[0].length > 0);
+
+  return ret;
+} // [0, 1, 2, 3, 4, 9, 14, 19, 18, 17, 16, 15, 10, 5, 6, 7, 8, 13, 12, 11]
 
 
 // Sort array with semver-rules
