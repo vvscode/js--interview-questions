@@ -67,3 +67,6 @@ Elevator.prototype = {
       // put your code here
     }
 }
+
+// Implement chain map-method which can work with async functions ( promises-based )
+// Like: Chain([link1,link2,link3]).mapAsync(link => get(link)).mampAsync(page => printPage)
