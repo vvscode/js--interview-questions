@@ -65,3 +65,6 @@ logger.log("Wazzup?");
 // Explain difference between .call/.apply/.bind
 
 // Create .bind polyfill
+
+// Create .newInstance method which has behaviour like .apply for constructors
+// Examples: `new A(1,2,3)` should be equal to `A.newInstance([1,2,3])` 
