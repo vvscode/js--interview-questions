@@ -68,3 +68,16 @@ logger.log("Wazzup?");
 
 // Create .newInstance method which has behaviour like .apply for constructors
 // Examples: `new A(1,2,3)` should be equal to `A.newInstance([1,2,3])` 
+
+// Describe what happens in next line ( and difference )
+function User(name) { this.name = name; }
+var u1 = User('Bob');
+var u2 = new User('Sam');
+var u3 = User.call({}, 'Mike'); // <-- N.B.
+
+// Create singleton
+var getInstance = /* put your code here */;
+var o1 = getInstance();
+var o2 = getInstance();
+o1 instanceof User; // true
+o1 === o2; // true
