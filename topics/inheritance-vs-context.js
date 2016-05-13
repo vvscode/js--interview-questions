@@ -81,3 +81,9 @@ var o1 = getInstance();
 var o2 = getInstance();
 o1 instanceof User; // true
 o1 === o2; // true
+
+// modify example above
+var User = /* your code */
+var u1 = new User(1);
+var u2 = new User(2);
+u1 === u2; // true
