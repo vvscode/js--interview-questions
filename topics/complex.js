@@ -83,3 +83,9 @@ Elevator.prototype = {
 //There must be a function for each of the following mathematical operations: plus, minus, times, dividedBy (divided_by in Ruby)
 //Each calculation consist of exactly one operation and two numbers
 //The most outer function represents the left operand, the most inner function represents the right operand
+
+// Написать функцию котороя будет разворачивать буквы в словах предложения, но только лишь буквы
+// цифры и специальные символы должны остаться на месте
+// s1tar3t 2 hellow  ->  t1rat3s 2 wolleh
+// s1ta$%r3t 2 hel^low  ->  t1ra$%t3s 2 wol^leh
+// s1tar3t 2   low5  ->  t1rat3s 2   wol5
