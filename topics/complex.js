@@ -89,3 +89,14 @@ Elevator.prototype = {
 // s1tar3t 2 hellow  ->  t1rat3s 2 wolleh
 // s1ta$%r3t 2 hel^low  ->  t1ra$%t3s 2 wol^leh
 // s1tar3t 2   low5  ->  t1rat3s 2   wol5
+
+
+// Реализовать фукнционал, допускающий следующий код
+// (3).add(5).multiply(2) // 16
+// Нужно реализовать следующие методы
+// add
+// subtract
+// multiply
+// divide
+// square
+// После должна появится возможность выстраивать команды в цепочку ( см пример выше )
