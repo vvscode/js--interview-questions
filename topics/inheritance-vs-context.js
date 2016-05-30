@@ -87,3 +87,12 @@ var User = /* your code */
 var u1 = new User(1);
 var u2 = new User(2);
 u1 === u2; // true
+
+// What does it do and how it works?
+function bind(method, context) {
+    var args = Array.prototype.slice.call(arguments, 2);
+    return function() {
+        var a = args.concat(Array.prototype.slice.call(arguments, 0));
+        return method.apply(context, a);
+    }
+}
