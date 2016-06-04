@@ -14,3 +14,7 @@ return x
 a = [1,2,3,4]
 a[1.5] = 1.5
 a // ?
+
+// What will be the output
+function foo(){console.log("hello")}
+foo.call.call.call.apply(function bar(x) {console.log(x)}, [this,"world"])
