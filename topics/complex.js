@@ -100,3 +100,8 @@ Elevator.prototype = {
 // divide
 // square
 // После должна появится возможность выстраивать команды в цепочку ( см пример выше )
+
+
+// implement simple module system with injection system like in angular
+// function($moduleName, $anotherModuleName){} should get objects from
+// module('moduleName') / module(anotherModuleName)
