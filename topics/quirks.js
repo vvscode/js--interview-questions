@@ -40,3 +40,11 @@ console.log(mean); //?
 
 // What will be the output
 [2, 3, -1, -6, 0, -108, 42, 10].sort();
+
+
+// What will be the output
+var y = 1;
+if (function f(){}) {
+  y += typeof f;
+}
+console.log(y);
