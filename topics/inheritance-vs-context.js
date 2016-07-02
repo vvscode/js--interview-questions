@@ -96,3 +96,7 @@ function bind(method, context) {
         return method.apply(context, a);
     }
 }
+
+
+// How many ways do you know to check if something is Array
+// (.isArray / instanceof / Object.prototype.toString.call([]) etc.)
