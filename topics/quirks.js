@@ -48,3 +48,7 @@ if (function f(){}) {
   y += typeof f;
 }
 console.log(y);
+
+// What will be the output
+var foo = function bar(){ return 12; };
+typeof bar();  
