@@ -52,3 +52,13 @@ console.log(y);
 // What will be the output
 var foo = function bar(){ return 12; };
 typeof bar();  
+
+// What will be the output
+var a={},
+    b={key:'b'},
+    c={key:'c'};
+
+a[b]=123;
+a[c]=456;
+
+console.log(a[b]);
