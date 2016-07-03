@@ -33,3 +33,10 @@ alert(s); // 0
 alert(s(1)); // 1
 alert(s(1)(2)); //3
 alert(s(3)(4)(5)); // 12
+
+// What is the output?
+(function(x) {
+    return (function(y) {
+        console.log(x);
+    })(2)
+})(1);
