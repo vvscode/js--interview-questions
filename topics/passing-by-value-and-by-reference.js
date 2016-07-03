@@ -51,3 +51,9 @@ var obj = {
   };
 })(obj);
 console.log(obj.a);
+
+
+// What is the value of foo.x?
+var foo = {n: 1};
+var bar = foo;
+foo.x = foo = {n: 2};
