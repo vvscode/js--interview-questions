@@ -105,3 +105,7 @@ Elevator.prototype = {
 // implement simple module system with injection system like in angular
 // function($moduleName, $anotherModuleName){} should get objects from
 // module('moduleName') / module(anotherModuleName)
+
+// Output?
+var f = (function f(){ return "1"; }, function g(){ return 2; })();
+typeof f;
