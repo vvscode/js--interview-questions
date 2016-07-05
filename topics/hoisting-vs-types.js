@@ -93,3 +93,9 @@ x;
 // Output?
 var x = [typeof x, typeof y][1];
 typeof typeof x;
+
+
+// Output?  Just be attentive
+(function(foo){
+  return typeof foo.bar;
+})({ foo: { bar: 1 } });
