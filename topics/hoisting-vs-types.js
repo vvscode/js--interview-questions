@@ -99,3 +99,18 @@ typeof typeof x;
 (function(foo){
   return typeof foo.bar;
 })({ foo: { bar: 1 } });
+
+
+// Output
+(function() {
+    logMe();
+    var logMe = function() {
+        console.log('Jesus, George, it was a wonder I was even born.');
+    };
+    logMe();
+
+    function logMe() {
+        console.log('Great Scott!');
+    }
+    logMe();
+})();
