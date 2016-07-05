@@ -80,3 +80,12 @@ f();
 
   console.log(x);
 })();
+
+
+// number / undefined / function / Error ?
+var f = function g(){ return 23; };
+typeof g();
+
+// what is x ?
+var y = 1, x = y = typeof x;
+x;
