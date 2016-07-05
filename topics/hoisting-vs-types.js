@@ -89,3 +89,7 @@ typeof g();
 // what is x ?
 var y = 1, x = y = typeof x;
 x;
+
+// Output?
+var x = [typeof x, typeof y][1];
+typeof typeof x;
