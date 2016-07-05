@@ -100,3 +100,20 @@ function bind(method, context) {
 
 // How many ways do you know to check if something is Array
 // (.isArray / instanceof / Object.prototype.toString.call([]) etc.)
+
+
+// Output?
+ var foo = {
+    bar: function() { return this.baz; },
+    baz: 1
+  };
+  (function(){
+    return typeof arguments[0]();
+  })(foo.bar);
+  
+// Output ?
+var foo = {
+    bar: function(){ return this.baz; },
+    baz: 1
+  }
+  typeof (f = foo.bar)();
