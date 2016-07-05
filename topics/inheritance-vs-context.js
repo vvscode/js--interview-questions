@@ -117,3 +117,8 @@ var foo = {
     baz: 1
   }
   typeof (f = foo.bar)();
+
+
+// With ( oldschool)
+// 1 / 2 / undefined / Error ?
+with (function(x, undefined){}) length;
