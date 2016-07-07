@@ -60,5 +60,7 @@ var a={},
 
 a[b]=123;
 a[c]=456;
-
 console.log(a[b]);
+
+// What will be the output? 
+['11','11','11','11'].map(parseInt)
