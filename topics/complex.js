@@ -109,3 +109,11 @@ Elevator.prototype = {
 // Output?
 var f = (function f(){ return "1"; }, function g(){ return 2; })();
 typeof f;
+
+// Output?
+var text = 'outside';
+function logIt(){
+    console.log(text);
+    var text = 'inside';
+};
+logIt();
