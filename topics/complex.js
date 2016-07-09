@@ -132,3 +132,8 @@ logIt();
         };
     }
 </script>
+
+// define a spacify function which takes a string as an argument,
+// and returns the same string but with each character separated by a space
+// a) spacify('hello world') // => 'h e l l o  w o r l d'
+// b) 'hello world'.spacify() //  => 'h e l l o  w o r l d'
