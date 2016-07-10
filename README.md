@@ -8,6 +8,8 @@ Here I'll notice only questions from my interviews. If you want get more informa
  - https://github.com/nishant8BITS/123-Essential-JavaScript-Interview-Question
  - https://github.com/kolodny/exercises
  - https://github.com/malachaifrazier/JavaScript-Interview-Questions
+ - https://github.com/adam-s/js-interview-review
+ - https://github.com/mi-lee/js-interview-questions/blob/master/interview-questions.md
  
 Also it may be helpful to check next books:
 
