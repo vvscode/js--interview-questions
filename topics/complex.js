@@ -137,3 +137,7 @@ logIt();
 // and returns the same string but with each character separated by a space
 // a) spacify('hello world') // => 'h e l l o  w o r l d'
 // b) 'hello world'.spacify() //  => 'h e l l o  w o r l d'
+
+// Write a program that prints all the numbers from 1 to 100. 
+// For multiples of 3, instead of the number, print "Fizz", for multiples of 5 print "Buzz". 
+// For numbers which are multiples of both 3 and 5, print "FizzBuzz".
