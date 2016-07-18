@@ -148,3 +148,5 @@ var le = new LazyEval([1, 2, 3, 4, 5])
   .map(i => i * 2);
 le.value(); // [6, 8, 10]
 // BUT! all evaluations should be done only after .value() call
+
+// Create .bind method for function without using .call/.apply (only trash, only hardcore)
