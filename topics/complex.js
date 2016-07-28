@@ -150,3 +150,9 @@ le.value(); // [6, 8, 10]
 // BUT! all evaluations should be done only after .value() call
 
 // Create .bind method for function without using .call/.apply (only trash, only hardcore)
+
+// Create compose function
+// const compose = (f1, f2) => value => f1( f2(value) )
+// list of functions can has any length
+// for zero-length list it should return `() => undefined`
+// compose(fn, fn1, fn2, fn3) ... etc
