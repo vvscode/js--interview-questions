@@ -156,3 +156,5 @@ le.value(); // [6, 8, 10]
 // list of functions can has any length
 // for zero-length list it should return `() => undefined`
 // compose(fn, fn1, fn2, fn3) ... etc
+
+// Implement `.map`  using `.reduce` for iteration ( for arrays )
