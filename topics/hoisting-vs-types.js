@@ -117,3 +117,6 @@ typeof typeof x;
 
 // result?
 new String('Hello') === 'Hello'
+
+// result?
+"This is a string" instanceof String;
