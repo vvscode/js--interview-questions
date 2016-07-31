@@ -82,3 +82,6 @@ function bar() {
     var foo = '11';
 }
 alert(typeof bar());
+
+// Output?
+console.log("1" - - "1")
