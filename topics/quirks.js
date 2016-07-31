@@ -64,3 +64,12 @@ console.log(a[b]);
 
 // What will be the output? 
 ['11','11','11','11'].map(parseInt)
+
+// what will display alert?
+function aaa() {
+    return
+    {
+        test: 1
+    };
+}
+alert(typeof aaa());
