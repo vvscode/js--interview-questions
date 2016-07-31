@@ -114,3 +114,6 @@ typeof typeof x;
     }
     logMe();
 })();
+
+// result?
+new String('Hello') === 'Hello'
