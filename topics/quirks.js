@@ -116,3 +116,12 @@ function foo() {
 }
 var bar = new new foo;
 console.log(bar.x);
+
+// result?
+var bar = 1,
+    foo = {};
+foo: {
+    bar: 2;
+    baz: ++bar;
+};
+foo.baz + foo.bar + bar;
