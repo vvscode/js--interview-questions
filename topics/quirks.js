@@ -100,3 +100,9 @@ var foo = {
 var go = foo.baz.bar;
 alert(go());
 alert(foo.baz.bar());
+
+// output?
+var myArr = ['foo', 'bar', 'baz'];
+myArr.length = 0;
+myArr.push('bin');
+console.log(myArr);
