@@ -73,3 +73,12 @@ function aaa() {
     };
 }
 alert(typeof aaa());
+
+// What is alerted?
+function bar() {
+    return foo;
+    foo = 10;
+    function foo() {}
+    var foo = '11';
+}
+alert(typeof bar());
