@@ -130,3 +130,10 @@ foo.baz + foo.bar + bar;
 var myArr = ['foo', 'bar', 'baz'];
 myArr[2];
 console.log('2' in myArr);
+
+// output?
+function foo(a, b) {
+    arguments[1] = 2;
+    alert(b);
+}
+foo(1);
