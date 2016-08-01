@@ -137,3 +137,8 @@ function foo(a, b) {
     alert(b);
 }
 foo(1);
+
+// What value is alerted?
+function foo(){}
+delete foo.length;
+alert(typeof foo.length);
