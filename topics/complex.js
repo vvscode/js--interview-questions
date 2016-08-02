@@ -169,3 +169,17 @@ var users = {
   'Duglas': { age: 27, isMale: true },
   'Martin': { age: 34, isMale: true },
 };
+
+// Challenge:   Implement a tic-tac-toe game (3x3)
+// Requirements:
+//   1. program must be a pure JavaScript solution. not looking for a web application here
+//   2. program must play a game for both players with no user interaction
+//   3. program must display the game board after each player move
+//   4. program must display the game winner, or 'draw' if not won
+// Notes:
+//   1. program does not have to choose a player move intelligently
+//   2. don't bother drawing lines for the game board
+//   3. feel free to use underscore/lodash if you like
+//   4. feel free to use es6/es2015 features if you like
+// Begin when ready, and remember to verbalize your design and implementation
+// thoughts as you proceed.
