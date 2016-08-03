@@ -120,3 +120,14 @@ new String('Hello') === 'Hello'
 
 // result?
 "This is a string" instanceof String;
+
+// output ?
+var a = 1;
+var b = function() {
+ a = 10;
+ return a;
+ function a() {
+   a = 5;
+  }
+};
+console.log(b(), a);
