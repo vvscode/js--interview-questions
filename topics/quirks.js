@@ -157,3 +157,9 @@ var a = 1,
         x && a(--x);
     };
 alert(a);
+
+// output?
+function a() {
+    alert(this);
+}
+a.call(null);
