@@ -131,3 +131,18 @@ var b = function() {
   }
 };
 console.log(b(), a);
+
+// output?
+var x = [typeof x, typeof y][1];
+typeof typeof x;
+
+// output?
+(function f(){
+  function f(){ return 1; }
+  return f();
+  function f(){ return 2; }
+})();
+
+// result?
+function f(){ return f; }
+new f() instanceof f;
