@@ -150,3 +150,10 @@ typeof g();
 // output?
 var f = (function f(){ return "1"; }, function g(){ return 2; })();
 typeof f;
+
+// output ?
+var a = 1,
+    b = function a(x) {
+        x && a(--x);
+    };
+alert(a);
