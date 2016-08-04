@@ -142,3 +142,11 @@ foo(1);
 function foo(){}
 delete foo.length;
 alert(typeof foo.length);
+
+// output ? 
+var f = function g(){ return 23; };
+typeof g();
+
+// output?
+var f = (function f(){ return "1"; }, function g(){ return 2; })();
+typeof f;
