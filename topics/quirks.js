@@ -163,3 +163,6 @@ function a() {
     alert(this);
 }
 a.call(null);
+
+// result?
+var foo = bar ? bar : 0;
