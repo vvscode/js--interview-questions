@@ -10,6 +10,7 @@ Here I'll notice only questions from my interviews. If you want get more informa
  - https://github.com/malachaifrazier/JavaScript-Interview-Questions
  - https://github.com/adam-s/js-interview-review
  - https://github.com/mi-lee/js-interview-questions/blob/master/interview-questions.md
+ - https://github.com/nathansmith/javascript-quiz
  
 Also it may be helpful to check next books:
 
