@@ -157,7 +157,7 @@ logIt();
 
 // output? ( nb: answer depends on environment / browser )
 (function() {
- var a = 0;
+ var a = 'initial';
   if(a) {
     function f() { console.log("1"); };
   } else {
