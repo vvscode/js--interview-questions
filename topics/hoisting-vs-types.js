@@ -155,7 +155,7 @@ function logIt(){
 };
 logIt();
 
-// output?
+// output? ( nb: answer depends on environment / browser )
 (function() {
  var a = 0;
   if(a) {
