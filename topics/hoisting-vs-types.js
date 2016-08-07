@@ -154,3 +154,14 @@ function logIt(){
     var text = 'inside';
 };
 logIt();
+
+// output?
+(function() {
+ var a = 0;
+  if(a) {
+    function f() { console.log("1"); };
+  } else {
+    function f() { console.log("2"); };
+  }
+  f();
+})();
