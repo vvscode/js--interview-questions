@@ -165,3 +165,14 @@ logIt();
   }
   f();
 })();
+
+// output?
+(function() {
+ var a = 0;
+  f();
+  if( a ) {
+    function f() { console.log("1"); };
+  } else {
+    function f() { console.log("2"); };
+  }
+})();
