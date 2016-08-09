@@ -122,3 +122,12 @@ var foo = {
 // With ( oldschool)
 // 1 / 2 / undefined / Error ?
 with (function(x, undefined){}) length;
+
+// implement Object.create - like inheritance
+// You can't use Object.create / __proto__
+var A = function() { };
+var B = function() { };
+var b = new B(); // A wasn't called
+b instanceof A // true
+B.prototype.addSome = 1;
+A.prototype.addSome; // undefined
