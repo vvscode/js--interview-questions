@@ -41,7 +41,7 @@ console.log(mean); //?
 // What will be the output
 [2, 3, -1, -6, 0, -108, 42, 10].sort();
 
-
+// what is the difference between 0 / -0 ?
 // What will be the output
 var y = 1;
 if (function f(){}) {
