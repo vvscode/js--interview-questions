@@ -176,3 +176,13 @@ logIt();
     function f() { console.log("2"); };
   }
 })();
+
+// What does the following code do? And why? ( quirks )
+falseStr = "false";
+if(true){
+  var falseStr;
+  if(falseStr){
+   console.log("false" == true);
+   console.log("false" == false);
+  }
+}
