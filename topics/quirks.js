@@ -166,3 +166,7 @@ a.call(null);
 
 // result?
 var foo = bar ? bar : 0;
+
+// How to empty an array in JavaScript ?
+// var arrayList =  ['a','b','c','d','e','f'];
+// how many ways? compare them
