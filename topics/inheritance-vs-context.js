@@ -131,3 +131,29 @@ var b = new B(); // A wasn't called
 b instanceof A // true
 B.prototype.addSome = 1;
 A.prototype.addSome; // undefined
+
+// result?
+var x = 10;
+var foo = {
+  x: 20,
+  bar: function () {
+    var x = 30;
+    return this.x;
+  }
+};
+console.log(
+  foo.bar(),
+  (foo.bar)(),
+  (foo.bar = foo.bar)(),
+  (foo.bar, foo.bar)()
+);
+
+// output ?
+function f(x, y) {
+  x = 10;
+  console.log(
+    arguments[0],
+    arguments[1]
+  );
+}
+f();
