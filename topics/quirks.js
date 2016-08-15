@@ -170,3 +170,6 @@ var foo = bar ? bar : 0;
 // How to empty an array in JavaScript ?
 // var arrayList =  ['a','b','c','d','e','f'];
 // how many ways? compare them
+
+// result? =)
+var a = (1,5 - 1) * 2
