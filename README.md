@@ -11,6 +11,7 @@ Here I'll notice only questions from my interviews. If you want get more informa
  - https://github.com/adam-s/js-interview-review
  - https://github.com/mi-lee/js-interview-questions/blob/master/interview-questions.md
  - https://github.com/nathansmith/javascript-quiz
+ - https://github.com/MaximAbramchuck/awesome-interview-questions
  
 Also it may be helpful to check next books:
 
