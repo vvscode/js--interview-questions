@@ -18,6 +18,7 @@ Also it may be helpful to check next books:
 
  - "Javascript Technical Interview Questions" by Xuanyi Chew https://leanpub.com/jsinterviewquestions
  - "Quick JavaScript Interview Questions" by Sandeep Kumar Patel https://leanpub.com/quickjavascriptinterviewquestions
+ - "JavaScript Interview Questions: Who Else Wants to Nail that Interview?" by Volkan Özçelik https://o2js.com/assets/javascript-interview-questions.pdf
 
 If you're ready to share your experience - you're welcome. Make PR to related file ( by topic ) or create issue with list of questions
 
