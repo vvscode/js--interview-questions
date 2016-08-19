@@ -57,3 +57,7 @@ console.log(obj.a);
 var foo = {n: 1};
 var bar = foo;
 foo.x = foo = {n: 2};
+
+// how to return result for async operation in sync style?
+// like .getData() - should return data synchroniously, but data get in async by ajax
+// let's discuss workarounds
