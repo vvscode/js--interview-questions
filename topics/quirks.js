@@ -173,3 +173,16 @@ var foo = bar ? bar : 0;
 
 // result? =)
 var a = (1,5 - 1) * 2
+
+// output? 
+// http://stackoverflow.com/questions/39277394/why-settimeout-calls-make-different-result
+setTimeout(function() {
+  setTimeout(function() {
+    console.log('foo');
+  }, 50);
+}, 100);
+setTimeout(function() {
+  setTimeout(function() {
+    console.log('baz');
+  }, 100);
+}, 50);
