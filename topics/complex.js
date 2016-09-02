@@ -183,3 +183,22 @@ var users = {
 //   4. feel free to use es6/es2015 features if you like
 // Begin when ready, and remember to verbalize your design and implementation
 // thoughts as you proceed.
+
+// About promises:
+// Suppose findData is a function that takes a query object and returns a promise for the result of the query. 
+// Suppose also that someRandomArrayOfQueries is an array of query objects. 
+// Explain what would be printed by the following code and why
+function runMultipleQueries(queries) {
+ var results = [];
+ queries.forEach(doQuery);
+ return results;
+
+ function doQuery(query) {
+   findData(query)
+   .then(results.push.bind(results));
+ } 
+}
+function log(value) {
+ console.log(value);
+}
+runMultipleQueries(someRandomArrayOfQueries).forEach(log);
