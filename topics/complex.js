@@ -202,3 +202,15 @@ function log(value) {
  console.log(value);
 }
 runMultipleQueries(someRandomArrayOfQueries).forEach(log);
+
+// Create code to pass test ( mocha, but it doesn't metter )
+describe('Step 5', function() {
+  it('add(2,8)(5).value() => 15', function() {
+    add(2,8)(5).value()
+      .should.be.exactly(15).and.be.a.Number;
+  });
+  it('add(3, 3, 5)(4)(3, 2).value() => 20', function() {
+    add(3, 3, 5)(4)(3, 2).value()
+      .should.be.exactly(20).and.be.a.Number;
+  });
+});
