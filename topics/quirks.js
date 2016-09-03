@@ -186,3 +186,6 @@ setTimeout(function() {
     console.log('baz');
   }, 100);
 }, 50);
+
+// result?
+5 > 3 > 2
