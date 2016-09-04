@@ -32,3 +32,14 @@ var a = function(i) { console.log(i); };
 var b = function(i) { console.log(i); };
 for(var i = 0; i < 5; i++) {  a(i); }
 for(var i = 4; i>=0; i--) { b(i); }
+
+// The following recursive code will cause a stack overflow if the array list is too large. 
+// How can you fix this and still retain the recursive pattern?
+var list = readHugeList();
+var nextListItem = function() {
+    var item = list.pop();
+    if (item) {
+        // process the list item...
+        nextListItem();
+    }
+};
