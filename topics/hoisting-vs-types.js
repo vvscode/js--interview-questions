@@ -186,3 +186,9 @@ if(true){
    console.log("false" == false);
   }
 }
+
+// how to check if something is object?
+// NB: asker should keep in mind:
+// 1) typeof null => 'object'
+// 2) Object.create(null) instanseof Object => false
+// 3) typeof function() {} => 'function' , but it's still object
