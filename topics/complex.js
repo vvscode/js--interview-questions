@@ -214,3 +214,5 @@ describe('Step 5', function() {
       .should.be.exactly(20).and.be.a.Number;
   });
 });
+
+// Given two identical DOM trees (not the same one), and a node from one of them find the node in the other one.  
