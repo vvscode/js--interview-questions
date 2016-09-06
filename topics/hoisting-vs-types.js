@@ -192,3 +192,7 @@ if(true){
 // 1) typeof null => 'object'
 // 2) Object.create(null) instanseof Object => false
 // 3) typeof function() {} => 'function' , but it's still object
+
+// output?
+var a = (1,2,3);
+console.log(a);
