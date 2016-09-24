@@ -216,3 +216,16 @@ describe('Step 5', function() {
 });
 
 // Given two identical DOM trees (not the same one), and a node from one of them find the node in the other one.  
+
+// What is the difference between these four promises?
+doSomething().then(function () {
+  return doSomethingElse();
+});
+
+doSomething().then(function () {
+  doSomethingElse();
+});
+
+doSomething().then(doSomethingElse());
+
+doSomething().then(doSomethingElse);
