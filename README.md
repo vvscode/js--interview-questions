@@ -13,6 +13,7 @@ Here I'll notice only questions from my interviews. If you want get more informa
  - https://github.com/nathansmith/javascript-quiz
  - https://github.com/MaximAbramchuck/awesome-interview-questions
  - https://github.com/kensterz/interview-questions-in-javascript
+ - https://github.com/apoterenko/javascript-interview-questions ( about 50 questions like "Explain ouput.."
  
 Also it may be helpful to check next books:
 
