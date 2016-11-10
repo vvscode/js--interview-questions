@@ -14,6 +14,9 @@ Here I'll notice only questions from my interviews. If you want get more informa
  - https://github.com/MaximAbramchuck/awesome-interview-questions Awesome Interviews  ( multiple langs )
  - https://github.com/apoterenko/javascript-interview-questions ( about 50 questions like "Explain ouput.."
  - https://github.com/kensterz/interview-questions-in-javascript Interview Algorithm Questions in Javascript
+ - https://github.com/HIROSN/coding-interviews-es6 Coding Interview Questions (ECMAScript 2015)
+ - https://github.com/mkshen/code-problems-solutions Interview coding questions and answers in Javascript - ES6
+ 
  
 Also it may be helpful to check next books:
 
