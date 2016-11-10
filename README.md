@@ -6,13 +6,12 @@ Here I'll notice only questions from my interviews. If you want get more informa
 
  - https://github.com/h5bp/Front-end-Developer-Interview-Questions -- no only about js
  - https://github.com/nishant8BITS/123-Essential-JavaScript-Interview-Question
- - https://github.com/kolodny/exercises
- - https://github.com/malachaifrazier/JavaScript-Interview-Questions
- - https://github.com/adam-s/js-interview-review
+ - https://github.com/kolodny/exercises Some basic javascript coding challenges and interview questions
+ - https://github.com/malachaifrazier/JavaScript-Interview-Questions Common Questions that may be Asked on a Job Interview
+ - https://github.com/adam-s/js-interview-review What Do I Need to Know to Ace a JavaScript Interview?
  - https://github.com/mi-lee/js-interview-questions/blob/master/interview-questions.md
  - https://github.com/nathansmith/javascript-quiz
- - https://github.com/MaximAbramchuck/awesome-interview-questions
- - https://github.com/kensterz/interview-questions-in-javascript
+ - https://github.com/MaximAbramchuck/awesome-interview-questions Awesome Interviews  ( multiple langs )
  - https://github.com/apoterenko/javascript-interview-questions ( about 50 questions like "Explain ouput.."
  - https://github.com/kensterz/interview-questions-in-javascript Interview Algorithm Questions in Javascript
  
