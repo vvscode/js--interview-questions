@@ -24,6 +24,12 @@ Also it may be helpful to check next books:
  - "Quick JavaScript Interview Questions" by Sandeep Kumar Patel https://leanpub.com/quickjavascriptinterviewquestions
  - "JavaScript Interview Questions: Who Else Wants to Nail that Interview?" by Volkan Özçelik https://o2js.com/assets/javascript-interview-questions.pdf
 
+
+Some ideas can be found during online tests. Like next:
+
+ - https://tests4geeks.com/category/javascript
+ - http://perfectionkills.com/javascript-quiz-es6/
+
 If you're ready to share your experience - you're welcome. Make PR to related file ( by topic ) or create issue with list of questions
 
 P.S. it worth to check *'Cracking the Coding Interview'* by Gayle Laakmann McDowell ( solutions can be founded at https://github.com/careercup/CtCI-6th-Edition , book (at least 5th edition can be googled )
