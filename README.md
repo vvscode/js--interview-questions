@@ -21,13 +21,13 @@ Here I'll notice only questions from my interviews. If you want get more informa
  More specific questions:
  
   - https://www.codementor.io/reactjs/tutorial/5-essential-reactjs-interview-questions 5 Essential React.js Interview Questions
-  - https://www.frontendhandbook.com/practice/interview-q.html The part about interview at `Front-End Developer Handbook`
  
 Also it may be helpful to check next books:
 
  - "Javascript Technical Interview Questions" by Xuanyi Chew https://leanpub.com/jsinterviewquestions
  - "Quick JavaScript Interview Questions" by Sandeep Kumar Patel https://leanpub.com/quickjavascriptinterviewquestions
  - "JavaScript Interview Questions: Who Else Wants to Nail that Interview?" by Volkan Özçelik https://o2js.com/assets/javascript-interview-questions.pdf
+ - https://www.frontendhandbook.com/practice/interview-q.html The part about interview at `Front-End Developer Handbook`
 
 
 Some ideas can be found during online tests. Like next:
