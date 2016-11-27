@@ -18,6 +18,11 @@ Here I'll notice only questions from my interviews. If you want get more informa
  - https://github.com/mkshen/code-problems-solutions Interview coding questions and answers in Javascript - ES6
  
  
+ More specific questions:
+ 
+  - https://www.codementor.io/reactjs/tutorial/5-essential-reactjs-interview-questions 5 Essential React.js Interview Questions
+  - https://www.frontendhandbook.com/practice/interview-q.html The part about interview at `Front-End Developer Handbook`
+ 
 Also it may be helpful to check next books:
 
  - "Javascript Technical Interview Questions" by Xuanyi Chew https://leanpub.com/jsinterviewquestions
