@@ -33,7 +33,7 @@ Also it may be helpful to check next books:
 Some ideas can be found during online tests. Like next:
 
  - https://tests4geeks.com/category/javascript
- - http://perfectionkills.com/javascript-quiz-es6/
+ - http://perfectionkills.com/javascript-quiz-es6/ ( also check explains at https://gist.github.com/DmitrySoshnikov/3928607cb8fdba42e712 )
 
 If you're ready to share your experience - you're welcome. Make PR to related file ( by topic ) or create issue with list of questions
 
