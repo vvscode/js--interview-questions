@@ -16,11 +16,13 @@ Here I'll notice only questions from my interviews. If you want get more informa
  - https://github.com/kensterz/interview-questions-in-javascript Interview Algorithm Questions in Javascript
  - https://github.com/HIROSN/coding-interviews-es6 Coding Interview Questions (ECMAScript 2015)
  - https://github.com/mkshen/code-problems-solutions Interview coding questions and answers in Javascript - ES6
- 
- 
+ - https://github.com/khan4019/front-end-Interview-Questions Interview Questions for front-end-Developer ( Only for JS developer when they have to answer some side questions to make interviewer comfortable. ) by [That JsDude](http://www.thatjsdude.com/interview/index.html)
+
+
  More specific questions:
  
   - https://www.codementor.io/reactjs/tutorial/5-essential-reactjs-interview-questions 5 Essential React.js Interview Questions
+  - https://github.com/MaximAbramchuck/awesome-interview-questions (one more time ) Awesome Interviews - not only languages, but libraries/frameworks too
  
 Also it may be helpful to check next books:
 
