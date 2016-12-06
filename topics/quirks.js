@@ -189,3 +189,12 @@ setTimeout(function() {
 
 // result?
 5 > 3 > 2
+
+
+// what is logged in the console?
+var a;
+if (a = (1+1==2)) {
+    console.log(a);
+} else {
+    console.log('false');
+}
