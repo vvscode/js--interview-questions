@@ -38,6 +38,8 @@ Some ideas can be found during online tests. Like next:
 
  - https://tests4geeks.com/category/javascript
  - http://perfectionkills.com/javascript-quiz-es6/ ( also check explains at https://gist.github.com/DmitrySoshnikov/3928607cb8fdba42e712 )
+ - http://dmitry.baranovskiy.com/post/91403200 - So, you think you know JavaScript?  it's usefull to read https://www.nczonline.net/blog/2010/01/26/answering-baranovskiys-javascript-quiz/ )
+ - http://perfectionkills.com/javascript-quiz/ (
 
 If you're ready to share your experience - you're welcome. Make PR to related file ( by topic ) or create issue with list of questions
 
