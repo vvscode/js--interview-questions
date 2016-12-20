@@ -23,6 +23,7 @@ Here I'll notice only questions from my interviews. If you want get more informa
  
   - https://www.codementor.io/reactjs/tutorial/5-essential-reactjs-interview-questions 5 Essential React.js Interview Questions
   - https://github.com/MaximAbramchuck/awesome-interview-questions (one more time ) Awesome Interviews - not only languages, but libraries/frameworks too
+  - http://www.thatjsdude.com/interview/js1.html / http://www.thatjsdude.com/interview/js2.html -- JS Interview Algorithm ( beginner / intermediate )
  
 Also it may be helpful to check next books:
 
