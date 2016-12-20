@@ -163,3 +163,7 @@ f();
 // The function accepts an integer that specifies how many times the string has to be repeated. 
 // The function returns the string repeated the number of times specified. For example:
 console.log('hello'.repeatify(3)); // hellohellohello
+
+// difference in next methods? 
+// (a instanceof Array) vs (Array.isArray(a));
+// http://stackoverflow.com/questions/22289727/difference-between-using-array-isarray-and-instanceof-array
