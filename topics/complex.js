@@ -236,3 +236,9 @@ doSomething().then(doSomethingElse);
 // Use it to write a function rand5() that generates a random integer from 1 to 5.
 // rand7() returns each integer with equal probability. 
 // rand5() must also return each integer with equal probability.
+
+
+// For next markup
+<div id="selectio">Select me!</div>
+// create js code ( via native js ) which on click at div will select all text inside
+// note - just check range/selection api
