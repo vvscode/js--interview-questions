@@ -56,3 +56,20 @@ alert(s(3)(4)(5)); // 12
         };
     }
 </script>```
+
+// what output will be?
+const fn = () => {
+ let a = 1;
+ return () => {
+   a++;
+   return a;
+ }
+};
+
+const fnRes = fn();
+alert(fnRes());
+alert(fnRes());
+
+const fnRes2 = fn();
+alert(fnRes2());
+alert(fnRes2());
