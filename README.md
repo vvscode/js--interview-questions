@@ -11,12 +11,14 @@ Here I'll notice only questions from my interviews. If you want get more informa
  - https://github.com/adam-s/js-interview-review What Do I Need to Know to Ace a JavaScript Interview?
  - https://github.com/mi-lee/js-interview-questions/blob/master/interview-questions.md
  - https://github.com/nathansmith/javascript-quiz
+ - https://github.com/ChiperSoft/InterviewThis An open source list of developer questions to ask prospective employers
  - https://github.com/MaximAbramchuck/awesome-interview-questions Awesome Interviews  ( multiple langs )
  - https://github.com/apoterenko/javascript-interview-questions ( about 50 questions like "Explain ouput.."
  - https://github.com/kensterz/interview-questions-in-javascript Interview Algorithm Questions in Javascript
  - https://github.com/HIROSN/coding-interviews-es6 Coding Interview Questions (ECMAScript 2015)
  - https://github.com/mkshen/code-problems-solutions Interview coding questions and answers in Javascript - ES6
  - https://github.com/khan4019/front-end-Interview-Questions Interview Questions for front-end-Developer ( Only for JS developer when they have to answer some side questions to make interviewer comfortable. ) by [That JsDude](http://www.thatjsdude.com/interview/index.html)
+ - https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95#.i5mgmc4m0 10 Interview Questions Every JavaScript Developer Should Know AKA: The Keys to JavaScript Mastery
 
 
  More specific questions:
