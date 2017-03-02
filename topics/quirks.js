@@ -198,3 +198,7 @@ if (a = (1+1==2)) {
 } else {
     console.log('false');
 }
+
+// are next expressions equal ? what's the result for both?
+1 << 33
+(1 << 31) << 2
