@@ -242,3 +242,7 @@ doSomething().then(doSomethingElse);
 <div id="selectio">Select me!</div>
 // create js code ( via native js ) which on click at div will select all text inside
 // note - just check range/selection api
+
+// A polindromic number reads the same both ways. 
+// The largest polindrome made from the product of two 2-digit numbers is 9009 = 91*99.
+// Find the largest polindrom made from the product of two 3-digit numbers.
