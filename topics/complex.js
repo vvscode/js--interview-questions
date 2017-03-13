@@ -246,3 +246,30 @@ doSomething().then(doSomethingElse);
 // A polindromic number reads the same both ways. 
 // The largest polindrome made from the product of two 2-digit numbers is 9009 = 91*99.
 // Find the largest polindrom made from the product of two 3-digit numbers.
+
+
+// Given an input string, you should check if the string contains the same amount of 'x' and 'o'. 
+// The case doesn't matter - if the amount is equal, return a true otherwise return false.
+// describe('sameXOAmount()', () => {
+//   it('should return `true` if number of `X` and `O` is equal', () => {
+//   expect(sameXOAmount('xXoO')).toEqual(true);
+//   expect(sameXOAmount('aAxXXbBoOo')).toEqual(true);
+//   expect(sameXOAmount('abc')).toEqual(true);
+//   });
+//   it('should return `false` if number of `X` and `O` is not equal', () => {
+//     expect(sameXOAmount('OaAxXbBoO')).toEqual(false);
+//     expect(sameXOAmount('xgXoXsdxOxz')).toEqual(false);
+//     expect(sameXOAmount('aaAmmMxMM')).toEqual(false);
+//   });
+// });
+
+// Given an array of numbers, you should find the number which occurs an odd number of times within the array. 
+// You can assume that there is always just one number with an odd amount. 
+// Furthermore the array is never undefined and contains only numbers.
+// describe('findOddAmount()', () => {
+//   it('should return the number which occurs with an odd frequency', () => {
+//     expect(findOddAmount([1, 2, 2, 3, 3])).toEqual(1);
+//     expect(findOddAmount([8, 8, 7, 7, 7])).toEqual(7);
+//     expect(findOddAmount([10, 3, 3, 10, 6, 10, 6, 1, 1])).toEqual(10);
+//   });
+// });
