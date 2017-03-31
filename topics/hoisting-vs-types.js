@@ -202,3 +202,11 @@ console.log(a);
    var a = b = 5;
 })();
 console.log(b);
+
+// output?
+var text = 'outside';
+function logIt(){
+    console.log(text);
+    var text = 'inside';
+};
+logIt();
