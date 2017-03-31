@@ -196,3 +196,9 @@ if(true){
 // output?
 var a = (1,2,3);
 console.log(a);
+
+// What will be the output?
+(function() {
+   var a = b = 5;
+})();
+console.log(b);
