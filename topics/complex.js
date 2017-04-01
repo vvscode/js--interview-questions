@@ -273,3 +273,6 @@ doSomething().then(doSomethingElse);
 //     expect(findOddAmount([10, 3, 3, 10, 6, 10, 6, 1, 1])).toEqual(10);
 //   });
 // });
+
+// Create `uniq` function, witch takes a list and returns only uniq values from list
+// Like in lodash/underscore
