@@ -276,3 +276,6 @@ doSomething().then(doSomethingElse);
 
 // Create `uniq` function, witch takes a list and returns only uniq values from list
 // Like in lodash/underscore
+
+// Let imaging sequence `1010010001000010000010000001...` (k(1->oo) "1{0xk}"
+// Create function which takes number of symbols as an argument and returns n-first symbols of the sequence
