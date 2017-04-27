@@ -279,3 +279,5 @@ doSomething().then(doSomethingElse);
 
 // Let imaging sequence `1010010001000010000010000001...` (k(1->oo) "1{0xk}"
 // Create function which takes number of symbols as an argument and returns n-first symbols of the sequence
+
+// Create `.bind` polyfill without using `.call`/`.apply` ( really tricky task, but it gives food for dicussion )
