@@ -167,3 +167,5 @@ console.log('hello'.repeatify(3)); // hellohellohello
 // difference in next methods? 
 // (a instanceof Array) vs (Array.isArray(a));
 // http://stackoverflow.com/questions/22289727/difference-between-using-array-isarray-and-instanceof-array
+
+// implement function, which can't be used as constructor ( with `new` keyword )
