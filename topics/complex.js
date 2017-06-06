@@ -281,3 +281,6 @@ doSomething().then(doSomethingElse);
 // Create function which takes number of symbols as an argument and returns n-first symbols of the sequence
 
 // Create `.bind` polyfill without using `.call`/`.apply` ( really tricky task, but it gives food for dicussion )
+
+// Based on list of chars, find the longes polindrome ( string equal in both directions: rtl = ltr )
+// like ['a', 'b', 'c', 'a', 'b', 'd'] => 'abcba' / 'abdba'
