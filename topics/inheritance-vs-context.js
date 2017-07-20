@@ -169,3 +169,8 @@ console.log('hello'.repeatify(3)); // hellohellohello
 // http://stackoverflow.com/questions/22289727/difference-between-using-array-isarray-and-instanceof-array
 
 // implement function, which can't be used as constructor ( with `new` keyword )
+
+// implement applyConstructor(ClassFunction, arrayWithArguments) function, which allows to do the same as
+// `new ClassFunction(...arrayWithArguments)`
+// babel says that `new (Function.prototype.bind.apply(x, [null].concat([1, 2, 3])))();` one of the variants
+// any other variants? tricky question to discuss subtle highlights about inheritance
