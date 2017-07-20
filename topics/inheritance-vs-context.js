@@ -172,5 +172,5 @@ console.log('hello'.repeatify(3)); // hellohellohello
 
 // implement applyConstructor(ClassFunction, arrayWithArguments) function, which allows to do the same as
 // `new ClassFunction(...arrayWithArguments)`
-// babel says that `new (Function.prototype.bind.apply(x, [null].concat([1, 2, 3])))();` one of the variants
+// babel says that `new (Function.prototype.bind.apply(ClassFunction, arrayWithArguments))();` one of the variants
 // any other variants? tricky question to discuss subtle highlights about inheritance
