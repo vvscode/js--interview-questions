@@ -16,3 +16,6 @@ Also while using webworkers we need create new webworker on each job. And in the
 
 If we have more details -- we can create a number of workers and pass functions as strings ( via serializing ),
 but it makes us avoid usage such features as clojures, referenced calls of functions , etc.
+
+P.S.
+looks like I was wrong. Paralles run can be provided with simultaneous running, we just need to save index of job to store result at the correct place of array (`solution5`) but number of parallel jobs still not covered.
