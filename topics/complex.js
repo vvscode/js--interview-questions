@@ -284,3 +284,6 @@ doSomething().then(doSomethingElse);
 
 // Based on list of chars, find the longes polindrome ( string equal in both directions: rtl = ltr )
 // like ['a', 'b', 'c', 'a', 'b', 'd'] => 'abcba' / 'abdba'
+
+// implement shuffle(list) function which suffle list ( randomize list elements )
+
