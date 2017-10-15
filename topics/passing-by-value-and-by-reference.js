@@ -20,21 +20,20 @@ console.log(customObject.get_price());
 function Car(color) {
   this.color = color;
 }
-var lada = new Car('Black');
+var lada = new Car("Black");
 Car.prototype.currentGear = 1;
 console.log(++lada.currentGear);
 console.log(Car.prototype.currentGear);
 
 // What is the output?
-var User = function() {
-};
+var User = function() {};
 
 User.prototype.attributes = {
   isAdmin: false
 };
 
-var admin = new User('Sam'),
-  guest = new User('Bob');
+var admin = new User("Sam"),
+  guest = new User("Bob");
 
 admin.attributes.isAdmin = true;
 
@@ -52,12 +51,27 @@ var obj = {
 })(obj);
 console.log(obj.a);
 
-
 // What is the value of foo.x?
-var foo = {n: 1};
+var foo = { n: 1 };
 var bar = foo;
-foo.x = foo = {n: 2};
+foo.x = foo = { n: 2 };
 
 // how to return result for async operation in sync style?
 // like .getData() - should return data synchroniously, but data get in async by ajax
 // let's discuss workarounds
+
+// About prototype inheritance / passing by reference
+// What is the output?
+function Person(name) {
+  if (name) this.options.name = name;
+}
+
+Person.prototype.options = {
+  name: "Default name"
+};
+
+var foo = new Person("foo");
+var bar = new Person("bar");
+
+console.log(foo.options.name);
+console.log(bar.options.name);
