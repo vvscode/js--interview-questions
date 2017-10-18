@@ -62,3 +62,6 @@ var nextListItem = function() {
   Promise.resolve(true).then(() => console.log(4));
   console.log(5);
 })();
+
+// create fetcher function, which takes url, and number of tryies to re-fetch data in case of error
+// you can use any load-interface ( fetch/xhr/... )
