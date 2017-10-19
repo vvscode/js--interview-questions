@@ -65,3 +65,4 @@ var nextListItem = function() {
 
 // create fetcher function, which takes url, and number of tryies to re-fetch data in case of error
 // you can use any load-interface ( fetch/xhr/... )
+// implement in both styles - recursion /  non-recursion
