@@ -295,3 +295,8 @@ For numbers which are multiples of both three and five print “FizzBuzz”.
 
 Additional restriction (optional) - you can't use if/switch/?: statements
 */
+
+// Create Promise implementation
+// NB: In fact it was pair programmng session
+// but it could be meditative task, wich takes as much time as you have
+// it covers a lot of topics - async / flow / thenable-interface / functions / exceptions etc.
