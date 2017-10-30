@@ -1,4 +1,7 @@
-// What is the output?
+# Hoisting and types
+
+What is the output?
+```javascript
 var a = 1;
 function b() {
   a = 10;
@@ -8,8 +11,10 @@ function b() {
 }
 b();
 console.log(a);
-
-// What is the output?
+```
+---
+What is the output?
+```javascript
 var a = {};
 var b = { key: 'b' };
 var c = { key: 'c' };
@@ -17,18 +22,23 @@ var c = { key: 'c' };
 a[b] = 123;
 a[c] = 456;
 console.log(a[b]);
-
-// What is the output?
+```
+---
+What is the output?
+```javascript
 console.log("1" + 2);
 console.log(2 + "1");
 console.log(1 + 2 + 3 + 4 + "5");
-
-// What for use next contruction?
+```
+What for use next contruction?
+```javascript
 function greetAll() {
   var args = Array.prototype.slice.call(arguments, 0);
 }
-
-// What is the output?
+```
+---
+What is the output?
+```javascript
 function test() {
   console.log(a);
   console.log(foo());
@@ -40,8 +50,10 @@ function test() {
   }
 }
 test();
-
-// What is the output?
+```
+---
+What is the output?
+```javascript
 (function() {
   alert(inner);
   inner();
@@ -49,8 +61,9 @@ test();
     alert('inner');
   }
 })();
-
-// What is the output?
+```
+What is the output?
+```javascript
 (function {
   alert(inner);
   inner();
@@ -58,21 +71,23 @@ test();
     alert('inner');
   }
 })();
-
-// What is the output?
+```
+What is the output?
+```javascript
 (function() {
   f();
   f = function() {
     console.log(1);
   }
 })();
-
 function f() {
   console.log(2)
 }
 f();
-
-// What is the output?
+```
+---
+What is the output?
+```javascript
 (function() {
   var x = 1;
 
@@ -80,28 +95,35 @@ f();
 
   console.log(x);
 })();
-
-
-// number / undefined / function / Error ?
+```
+---
+`number / undefined / function / Error` ?
+```javascript
 var f = function g(){ return 23; };
 typeof g();
-
-// what is x ?
+```
+---
+what is x ?
+```javascript
 var y = 1, x = y = typeof x;
 x;
-
-// Output?
+```
+---
+Output?
+```javascript
 var x = [typeof x, typeof y][1];
 typeof typeof x;
-
-
-// Output?  Just be attentive
+```
+---
+Output?  Just be attentive
+```javascript
 (function(foo){
   return typeof foo.bar;
 })({ foo: { bar: 1 } });
-
-
-// Output
+```
+---
+Output
+```javascript
 (function() {
     logMe();
     var logMe = function() {
@@ -114,14 +136,20 @@ typeof typeof x;
     }
     logMe();
 })();
-
-// result?
+```
+---
+result?
+```javascript
 new String('Hello') === 'Hello'
-
-// result?
+```
+---
+result?
+```javascript
 "This is a string" instanceof String;
-
-// output ?
+```
+---
+output ?
+```javascript
 var a = 1;
 var b = function() {
  a = 10;
@@ -131,31 +159,41 @@ var b = function() {
   }
 };
 console.log(b(), a);
-
-// output?
+```
+---
+output?
+```javascript
 var x = [typeof x, typeof y][1];
 typeof typeof x;
-
-// output?
+```
+---
+output?
+```javascript
 (function f(){
   function f(){ return 1; }
   return f();
   function f(){ return 2; }
 })();
-
-// result?
+```
+---
+result?
+```javascript
 function f(){ return f; }
 new f() instanceof f;
-
-// output?
+```
+---
+output?
+```javascript
 var text = 'outside';
 function logIt(){
     console.log(text);
     var text = 'inside';
 };
 logIt();
-
-// output? ( nb: answer depends on environment / browser )
+```
+---
+output? ( nb: answer depends on environment / browser )
+```javascript
 (function() {
  var a = 'initial';
   if(a) {
@@ -165,8 +203,10 @@ logIt();
   }
   f();
 })();
-
-// output?
+```
+---
+output?
+```javascript
 (function() {
  var a = 0;
   f();
@@ -176,8 +216,10 @@ logIt();
     function f() { console.log("2"); };
   }
 })();
-
-// What does the following code do? And why? ( quirks )
+```
+---
+What does the following code do? And why? ( quirks )
+```javascript
 falseStr = "false";
 if(true){
   var falseStr;
@@ -186,27 +228,35 @@ if(true){
    console.log("false" == false);
   }
 }
+```
+---
+how to check if something is object?
+NB: asker should keep in mind:
+ - typeof null => 'object'
+ - `Object.create(null) instanseof Object => false`
+ - `typeof function() {} => 'function'` , but it's still object
 
-// how to check if something is object?
-// NB: asker should keep in mind:
-// 1) typeof null => 'object'
-// 2) Object.create(null) instanseof Object => false
-// 3) typeof function() {} => 'function' , but it's still object
-
-// output?
+---
+output?
+```javascript
 var a = (1,2,3);
 console.log(a);
-
-// What will be the output?
+```
+---
+What will be the output?
+```javascript
 (function() {
    var a = b = 5;
 })();
 console.log(b);
-
-// output?
+```
+---
+output?
+```javascript
 var text = 'outside';
 function logIt(){
     console.log(text);
     var text = 'inside';
 };
 logIt();
+```
