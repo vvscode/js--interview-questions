@@ -1,4 +1,7 @@
-// What is the output?
+# Flow
+
+What is the output?
+```javascript
 console.log(1);
 setTimeout(function() {
   console.log(2);
@@ -7,8 +10,10 @@ setTimeout(function() {
   console.log(3);
 }, 0);
 console.log(4);
-
-// What is the output?
+```
+---
+What is the output?
+```javascript
 function say(a) {
   alert(a);
 }
@@ -18,8 +23,10 @@ setTimeout(function() {
   say(3);
 }, 1000);
 setTimeout(say, 2000, 4);
-
-// What's wrong? How fix?
+```
+---
+What's wrong? How fix?
+```javascript
 var done = false;
 $.ajax(url, function() {
   done = true;
@@ -27,9 +34,11 @@ $.ajax(url, function() {
 while (!done) {
   someWaitingStuff();
 }
-
-// Next code print '0,1,2,3,4,4,3,2,1,0'
-// Modify only functions ( not loops ) to get output as '4,3,2,1,0,0,1,2,3,4'
+```
+---
+Next code print `0,1,2,3,4,4,3,2,1,0`
+Modify only functions ( not loops ) to get output as `4,3,2,1,0,0,1,2,3,4`
+```javascript
 var a = function(i) {
   console.log(i);
 };
@@ -42,9 +51,11 @@ for (var i = 0; i < 5; i++) {
 for (var i = 4; i >= 0; i--) {
   b(i);
 }
-
-// The following recursive code will cause a stack overflow if the array list is too large.
-// How can you fix this and still retain the recursive pattern?
+```
+---
+The following recursive code will cause a stack overflow if the array list is too large.
+How can you fix this and still retain the recursive pattern?
+```javascript
 var list = readHugeList();
 var nextListItem = function() {
   var item = list.pop();
@@ -53,8 +64,10 @@ var nextListItem = function() {
     nextListItem();
   }
 };
-
-// What is the output
+```
+---
+What is the output
+```javascript
 (function() {
   console.log(1);
   setTimeout(() => console.log(2), 1000);
@@ -62,7 +75,9 @@ var nextListItem = function() {
   Promise.resolve(true).then(() => console.log(4));
   console.log(5);
 })();
+```
+---
+Create fetcher function, which takes url, and number of tryies to re-fetch data in case of error.
+You can use any load-interface ( fetch/xhr/... )
 
-// create fetcher function, which takes url, and number of tryies to re-fetch data in case of error
-// you can use any load-interface ( fetch/xhr/... )
-// implement in both styles - recursion /  non-recursion
+Bonus: Implement in both styles - recursion /  non-recursion
