@@ -1,15 +1,19 @@
-// What is the output? Fix code
+# Inheritance and context
+
+What is the output? Fix code
+```javascript
 var person = {
   name: "Sam",
   hello: function() {
     alert(this.name);
   }
 };
-
 var hello = person.hello;
 hello(); // Make it to output "Sam"
-
-// What is the output?
+```
+---
+What is the output?
+```javascript
 var fn = {};
 function valueAccessor(value) {
   var accessor = function(newValue) {
@@ -25,8 +29,10 @@ var a = valueAccessor(5);
 fn.incrementValue = function() { this(this() + 1); };
 a.incrementValue();
 a();
-
-// Update code for conditions
+```
+---
+Update code for conditions
+```javascript
 function A() {
   this.value = 1;
 }
@@ -35,8 +41,10 @@ var B = function() {} ;
 var b = new B;
 b.value === undefined; // should be true
 b instanceof A; // should be true
-
-// Explain the difference
+```
+---
+Explain the difference
+```javascript
 function User(name) {
   this.name = name;
   this.hello = function() {
@@ -50,8 +58,10 @@ function User(name) {
 User.prototype.hello = function() {
   alert(this.name);
 };
-
-// What is the output? Fix code
+```
+---
+What is the output? Fix code
+```javascript
 Logger = function(logFn) {
   _logFn = logFn;
   this.log = function(message) {
@@ -61,34 +71,44 @@ Logger = function(logFn) {
 var logger = new Logger(console.log);
 logger.log("Hi!");
 logger.log("Wazzup?");
+```
+Explain difference between `.call/.apply/.bind`
 
-// Explain difference between .call/.apply/.bind
+---
+Create `.bind` polyfill
 
-// Create .bind polyfill
+---
+Create `.newInstance` method which has behaviour like `.apply` for constructors
 
-// Create .newInstance method which has behaviour like .apply for constructors
-// Examples: `new A(1,2,3)` should be equal to `A.newInstance([1,2,3])` 
+Examples: `new A(1,2,3)` should be equal to `A.newInstance([1,2,3])` 
 
-// Describe what happens in next line ( and difference )
+---
+Describe what happens in next line ( and difference )
+```javascript
 function User(name) { this.name = name; }
 var u1 = User('Bob');
 var u2 = new User('Sam');
 var u3 = User.call({}, 'Mike'); // <-- N.B.
-
-// Create singleton
+```
+---
+Create singleton
+```javascript
 var getInstance = /* put your code here */;
 var o1 = getInstance();
 var o2 = getInstance();
 o1 instanceof User; // true
 o1 === o2; // true
-
-// modify example above
+```
+modify example above
+```javascript
 var User = /* your code */
 var u1 = new User(1);
 var u2 = new User(2);
 u1 === u2; // true
-
-// What does it do and how it works?
+```
+---
+What does it do and how it works?
+```javascript
 function bind(method, context) {
     var args = Array.prototype.slice.call(arguments, 2);
     return function() {
@@ -96,13 +116,12 @@ function bind(method, context) {
         return method.apply(context, a);
     }
 }
+```
+How many ways do you know to check if something is Array (`.isArray` / `instanceof` / `Object.prototype.toString.call([])` etc.)
 
-
-// How many ways do you know to check if something is Array
-// (.isArray / instanceof / Object.prototype.toString.call([]) etc.)
-
-
-// Output?
+---
+Output?
+```javascript
  var foo = {
     bar: function() { return this.baz; },
     baz: 1
@@ -110,29 +129,36 @@ function bind(method, context) {
   (function(){
     return typeof arguments[0]();
   })(foo.bar);
-  
-// Output ?
+```
+---
+Output ?
+```javascript
 var foo = {
     bar: function(){ return this.baz; },
     baz: 1
   }
   typeof (f = foo.bar)();
-
-
-// With ( oldschool)
-// 1 / 2 / undefined / Error ?
+```
+---
+With ( oldschool) `1 / 2 / undefined / Error` ?
+```javascript
 with (function(x, undefined){}) length;
-
-// implement Object.create - like inheritance
-// You can't use Object.create / __proto__
+```
+---
+Implement `Object.create` - like inheritance
+* You can't use `Object.create` / `__proto__`*
+* 
+```javascript
 var A = function() { };
 var B = function() { };
 var b = new B(); // A wasn't called
 b instanceof A // true
 B.prototype.addSome = 1;
 A.prototype.addSome; // undefined
-
-// result?
+```
+---
+result?
+```javascript
 var x = 10;
 var foo = {
   x: 20,
@@ -147,8 +173,10 @@ console.log(
   (foo.bar = foo.bar)(),
   (foo.bar, foo.bar)()
 );
-
-// output ?
+```
+---
+output ?
+```javascript
 function f(x, y) {
   x = 10;
   console.log(
@@ -157,20 +185,33 @@ function f(x, y) {
   );
 }
 f();
-
-//  Create “native” methods
-// Define a repeatify function on the String object. 
-// The function accepts an integer that specifies how many times the string has to be repeated. 
-// The function returns the string repeated the number of times specified. For example:
+```
+---
+Create “native” methods
+Define a repeatify function on the String object. The function accepts an integer that specifies how many times the string has to be repeated. The function returns the string repeated the number of times specified. For example:
+```javascript
 console.log('hello'.repeatify(3)); // hellohellohello
+```
+---
+difference in next methods? 
+```javascript
+(a instanceof Array)
+// vs
+(Array.isArray(a));
+ ```
+http://stackoverflow.com/questions/22289727/difference-between-using-array-isarray-and-instanceof-array
 
-// difference in next methods? 
-// (a instanceof Array) vs (Array.isArray(a));
-// http://stackoverflow.com/questions/22289727/difference-between-using-array-isarray-and-instanceof-array
+---
+Implement function, which can't be used as constructor ( with `new` keyword )
 
-// implement function, which can't be used as constructor ( with `new` keyword )
+---
+Implement `applyConstructor(ClassFunction, arrayWithArguments)` function, which allows to do the same as
+`new ClassFunction(...arrayWithArguments)`
 
-// implement applyConstructor(ClassFunction, arrayWithArguments) function, which allows to do the same as
-// `new ClassFunction(...arrayWithArguments)`
-// babel says that `new (Function.prototype.bind.apply(ClassFunction, arrayWithArguments))();` one of the variants
-// any other variants? tricky question to discuss subtle highlights about inheritance
+Babel says that 
+```javascript
+new (Function.prototype.bind.apply(ClassFunction, arrayWithArguments))();
+```
+one of the variants
+
+Any other variants? tricky question to discuss subtle highlights about inheritance
