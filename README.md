@@ -2,7 +2,18 @@
 
 Repo from/for interviews for js-developer positions.
 
-Here I'll notice only questions from my interviews. If you want get more information/materials check next repos:
+ - [Passing by value/reference](https://github.com/vvscode/js--interview-questions/blob/master/topics/passing-by-value-and-by-reference.md)
+ - [Closures](https://github.com/vvscode/js--interview-questions/blob/master/topics/closures.md)
+ - [Flow](https://github.com/vvscode/js--interview-questions/blob/master/topics/flow.md)
+ - [Hoisting and types](https://github.com/vvscode/js--interview-questions/blob/master/topics/hoisting-vs-types.md)
+ - [Inheritance and context](https://github.com/vvscode/js--interview-questions/blob/master/topics/inheritance-vs-context.md)
+ - [Complex](https://github.com/vvscode/js--interview-questions/blob/master/topics/complex.md)
+ - [Quirks](https://github.com/vvscode/js--interview-questions/blob/master/topics/quirks.md)
+ - [WTF](https://github.com/vvscode/js--interview-questions/blob/master/topics/wft.md)
+ 
+ ---
+
+Here I've noticed only questions from my interviews. If you want get more information/materials check next repos:
 
  - https://github.com/h5bp/Front-end-Developer-Interview-Questions -- no only about js
  - https://github.com/nishant8BITS/123-Essential-JavaScript-Interview-Question
