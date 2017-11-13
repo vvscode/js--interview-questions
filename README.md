@@ -13,7 +13,9 @@ Repo from/for interviews for js-developer positions.
  
  ---
 
-Here I've noticed only questions from my interviews. If you want get more information/materials check next repos:
+Here I've noticed only questions from my interviews. 
+
+### If you want get more information/materials check next repos:
 
  - https://github.com/h5bp/Front-end-Developer-Interview-Questions -- no only about js
  - https://github.com/nishant8BITS/123-Essential-JavaScript-Interview-Question
@@ -32,13 +34,13 @@ Here I've noticed only questions from my interviews. If you want get more inform
  - https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95#.i5mgmc4m0 10 Interview Questions Every JavaScript Developer Should Know AKA: The Keys to JavaScript Mastery
 
 
- More specific questions:
+ ### More specific questions:
  
   - https://www.codementor.io/reactjs/tutorial/5-essential-reactjs-interview-questions 5 Essential React.js Interview Questions
   - https://github.com/MaximAbramchuck/awesome-interview-questions (one more time ) Awesome Interviews - not only languages, but libraries/frameworks too
   - http://www.thatjsdude.com/interview/js1.html / http://www.thatjsdude.com/interview/js2.html -- JS Interview Algorithm ( beginner / intermediate )
  
-Also it may be helpful to check next books:
+### Also it may be helpful to check next books:
 
  - "Javascript Technical Interview Questions" by Xuanyi Chew https://leanpub.com/jsinterviewquestions
  - "Quick JavaScript Interview Questions" by Sandeep Kumar Patel https://leanpub.com/quickjavascriptinterviewquestions
@@ -48,7 +50,7 @@ Also it may be helpful to check next books:
  - https://www.interviewcake.com/javascript-interview-questions ( JavaScript Interview Questions, like "Merging Meeting Times", "Two Egg Problem" -- the exersizes/questions can be solved no only via js  - they are more algorithmic and give you mental pabulum ). Both - tasks/solutions are pretty cool
 
 
-Some ideas can be found during online tests. Like next:
+### Some ideas can be found during online tests. Like next:
 
  - https://tests4geeks.com/category/javascript
  - http://perfectionkills.com/javascript-quiz-es6/ ( also check explains at https://gist.github.com/DmitrySoshnikov/3928607cb8fdba42e712 )
@@ -57,4 +59,4 @@ Some ideas can be found during online tests. Like next:
 
 If you're ready to share your experience - you're welcome. Make PR to related file ( by topic ) or create issue with list of questions
 
-P.S. it worth to check *'Cracking the Coding Interview'* by Gayle Laakmann McDowell ( solutions can be founded at https://github.com/careercup/CtCI-6th-Edition , book (at least 5th edition can be googled )
+***P.S.*** it worth to check ***_'Cracking the Coding Interview'_*** by Gayle Laakmann McDowell ( solutions can be founded at https://github.com/careercup/CtCI-6th-Edition , book (at least 5th edition can be googled )
