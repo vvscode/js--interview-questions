@@ -17,7 +17,7 @@ Here I've noticed only questions from my interviews.
 
 ### If you want get more information/materials check next repos:
 
- - https://github.com/h5bp/Front-end-Developer-Interview-Questions -- no only about js
+ - https://github.com/h5bp/Front-end-Developer-Interview-Questions -- not only about js
  - https://github.com/nishant8BITS/123-Essential-JavaScript-Interview-Question
  - https://github.com/kolodny/exercises Some basic javascript coding challenges and interview questions
  - https://github.com/malachaifrazier/JavaScript-Interview-Questions Common Questions that may be Asked on a Job Interview
