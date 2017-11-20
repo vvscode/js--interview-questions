@@ -43,9 +43,9 @@ Here I've noticed only questions from my interviews.
  
 ### Also it may be helpful to check next books:
 
- - "Javascript Technical Interview Questions" by Xuanyi Chew https://leanpub.com/jsinterviewquestions
- - "Quick JavaScript Interview Questions" by Sandeep Kumar Patel https://leanpub.com/quickjavascriptinterviewquestions
- - "JavaScript Interview Questions: Who Else Wants to Nail that Interview?" by Volkan Özçelik https://o2js.com/assets/javascript-interview-questions.pdf
+ - **"Javascript Technical Interview Questions"** by Xuanyi Chew https://leanpub.com/jsinterviewquestions
+ - **"Quick JavaScript Interview Questions"** by Sandeep Kumar Patel https://leanpub.com/quickjavascriptinterviewquestions
+ - **"JavaScript Interview Questions: Who Else Wants to Nail that Interview?"** by Volkan Özçelik https://o2js.com/assets/javascript-interview-questions.pdf
  - https://www.frontendhandbook.com/practice/interview-q.html The part about interview at `Front-End Developer Handbook`
  - http://www.w3resource.com/javascript-exercises/ JavaScript Exercises, Practice, Solution ( starter level, suppose. Most questions is about knowledge of basic API / lang construction )
  - https://www.interviewcake.com/javascript-interview-questions ( JavaScript Interview Questions, like "Merging Meeting Times", "Two Egg Problem" -- the exersizes/questions can be solved no only via js  - they are more algorithmic and give you mental pabulum ). Both - tasks/solutions are pretty cool
