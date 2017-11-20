@@ -32,6 +32,7 @@ Here I've noticed only questions from my interviews.
  - https://github.com/mkshen/code-problems-solutions Interview coding questions and answers in Javascript - ES6
  - https://github.com/khan4019/front-end-Interview-Questions Interview Questions for front-end-Developer ( Only for JS developer when they have to answer some side questions to make interviewer comfortable. ) by [That JsDude](http://www.thatjsdude.com/interview/index.html)
  - https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95#.i5mgmc4m0 10 Interview Questions Every JavaScript Developer Should Know AKA: The Keys to JavaScript Mastery
+ - https://github.com/yangshun/tech-interview-handbook/blob/master/front-end/interview-questions.md - Front-end Job Interview Questions (and **Answers** - that might be most interesting for lazy persons who just want to know keys for interview )
 
 
  ### More specific questions:
@@ -48,6 +49,7 @@ Here I've noticed only questions from my interviews.
  - https://www.frontendhandbook.com/practice/interview-q.html The part about interview at `Front-End Developer Handbook`
  - http://www.w3resource.com/javascript-exercises/ JavaScript Exercises, Practice, Solution ( starter level, suppose. Most questions is about knowledge of basic API / lang construction )
  - https://www.interviewcake.com/javascript-interview-questions ( JavaScript Interview Questions, like "Merging Meeting Times", "Two Egg Problem" -- the exersizes/questions can be solved no only via js  - they are more algorithmic and give you mental pabulum ). Both - tasks/solutions are pretty cool
+ - https://github.com/yangshun/tech-interview-handbook **Tech Interview Handbook** (Algorithms, front end and behavioral content for rocking your coding interview)
 
 
 ### Some ideas can be found during online tests. Like next:
