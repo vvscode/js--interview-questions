@@ -10,6 +10,7 @@ Repo from/for interviews for js-developer positions.
  - [Complex](https://github.com/vvscode/js--interview-questions/blob/master/topics/complex.md)
  - [Quirks](https://github.com/vvscode/js--interview-questions/blob/master/topics/quirks.md)
  - [WTF](https://github.com/vvscode/js--interview-questions/blob/master/topics/wft.md)
+ - [Greate list of framework specific (not only js) questions](https://www.toptal.com/resources)
  
  ---
 
