@@ -34,6 +34,7 @@ Here I've noticed only questions from my interviews.
  - https://github.com/khan4019/front-end-Interview-Questions Interview Questions for front-end-Developer ( Only for JS developer when they have to answer some side questions to make interviewer comfortable. ) by [That JsDude](http://www.thatjsdude.com/interview/index.html)
  - https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95#.i5mgmc4m0 10 Interview Questions Every JavaScript Developer Should Know AKA: The Keys to JavaScript Mastery
  - https://github.com/yangshun/tech-interview-handbook/blob/master/front-end/interview-questions.md - Front-end Job Interview Questions (and **Answers** - that might be most interesting for lazy persons who just want to know keys for interview )
+ - https://github.com/wwwebman/front-end-interview-questions Our front end interview questions and answers can help you to prepare for an interview better and faster
 
 
  ### More specific questions:
