@@ -260,3 +260,20 @@ function logIt(){
 };
 logIt();
 ```
+---
+is it possible to have 
+```javascript
+(a == 1 && a == 2 && a == 3); // true 
+```
+
+by https://twitter.com/hugojmd/status/953763304958255105
+```javascript
+var a = {
+  currentValue: 0,
+  valueOf() {
+     return this.currentValue += 1
+  }
+}
+var eq = (a == 1 && a == 2 && a == 3);
+console.log(eq); // awesome =)
+```
