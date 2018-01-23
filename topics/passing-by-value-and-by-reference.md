@@ -91,3 +91,18 @@ var bar = new Person("bar");
 console.log(foo.options.name);
 console.log(bar.options.name);
 ```
+
+---
+
+what would be the output ? 
+
+```javascript
+var a = {};
+
+(function b ( a ) {
+    a.a = 10;
+    a = null;
+})( a );
+
+console.log(a);
+```
