@@ -367,3 +367,18 @@ Additional restriction (optional) - you can't use if/switch/?: statements
 Create Promise implementation
 
 NB: In fact it was pair programmng session but it could be meditative task, wich takes as much time as you have. It covers a lot of topics - async / flow / thenable-interface / functions / exceptions etc.
+
+---
+```javascript
+ar arr = [1,2,42,3];
+var brr = [];
+
+for (var i = 0; i < arr.length; i++) {
+  if (arr[i] === 42) {
+    // fill it as short as possible
+    // to get brr equal to [1,2,3]
+  }
+
+  brr.push(arr[i]);
+}
+```
