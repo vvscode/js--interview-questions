@@ -277,3 +277,22 @@ var a = {
 var eq = (a == 1 && a == 2 && a == 3);
 console.log(eq); // awesome =)
 ```
+
+---
+what whould be the output?
+
+```javascript
+foo();
+
+var foo = function() {
+  console.log(false);
+}
+
+foo();
+
+function foo() {
+  console.log(true);
+}
+
+foo();
+```
