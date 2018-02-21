@@ -81,3 +81,15 @@ Create fetcher function, which takes url, and number of tryies to re-fetch data 
 You can use any load-interface ( fetch/xhr/... )
 
 Bonus: Implement in both styles - recursion /  non-recursion
+
+---
+What is the output
+```javascript
+try {
+  setTimeout(function() {
+    throw new Error();
+  }, 1000);
+} catch (e) {
+  alert( e);
+}
+```
