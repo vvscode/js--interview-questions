@@ -44,6 +44,8 @@ alert(s(1)); // 1
 alert(s(1)(2)); //3
 alert(s(3)(4)(5)); // 12
 ```
+
+lighter version might use `sum(1)(2)()` with empty `()` at the end
 ---
 What is the output?
 ```javascript
