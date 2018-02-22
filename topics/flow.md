@@ -94,5 +94,6 @@ try {
 }
 ```
 
+---
 Create `promisify` function which takes node-style (error-first) function and converts it into promise-based function. 
 Instead of calling callback with error, data it return promise which resolves/rejectes. It worth to check if function save context for original function (`this`)
