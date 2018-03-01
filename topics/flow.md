@@ -97,3 +97,15 @@ try {
 ---
 Create `promisify` function which takes node-style (error-first) function and converts it into promise-based function. 
 Instead of calling callback with error, data it return promise which resolves/rejectes. It worth to check if function save context for original function (`this`)
+
+---
+Create function for asyn serial list processing. Takes list and callback `(element, index, list, doneCb)`. Returns promise wich resolved with results. Add callbacks should be called one by one.
+```javascript
+serialProcess([1,2,3,4,5], (el, index, list, done) => {
+  console.log(`${el} start`);
+  setTimeout(() => {
+    console.log(`${el} end`);
+    done(el*el);
+  }, el*100);
+}).then((list) => console.log(list)); // [1,4,9,16,25]
+```
