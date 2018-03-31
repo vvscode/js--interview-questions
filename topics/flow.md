@@ -112,13 +112,15 @@ serialProcess([1,2,3,4,5], (el, index, list, done) => {
 in callback style
 
 ```javascript
-serialProcess([1,2,3,4,5], (el, index, list, done) => {
-  console.log(`${el} start`);
-  setTimeout(() => {
-    console.log(`${el} end`);
-    done(el*el);
-  }, el*100);
-},
-(list) => console.log(list)
+serialProcess(
+  [1,2,3,4,5], 
+  (el, index, list, done) => {
+    console.log(`${el} start`);
+    setTimeout(() => {
+      console.log(`${el} end`);
+      done(el*el);
+    }, el*100);
+  },
+  (list) => console.log(list)
 ); // [1,4,9,16,25]
 ```
