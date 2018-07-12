@@ -169,7 +169,8 @@ Define a spacify function which takes a string as an argument, and returns the s
 Write a program that prints all the numbers from 1 to 100.  For multiples of 3, instead of the number, print "Fizz", for multiples of 5 print "Buzz". For numbers which are multiples of both 3 and 5, print "FizzBuzz".
 
 Option: do it without conditional statements (if/switch/?:)
-
+Option: do not use logical operators (&& / ||)
+Option: do not use loops (for/do/while/etc)
 ---
 Create lazy-evaluations POC
 ```javascript
@@ -354,14 +355,6 @@ Based on list of chars, find the longes polindrome ( string equal in both direct
 
 ---
 Implement shuffle(list) function which suffle list ( randomize list elements )
-
----
-Legendary FizzBuzz
-Write a program that prints the numbers from 1 to 100. 
-But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. 
-For numbers which are multiples of both three and five print “FizzBuzz”.
-
-Additional restriction (optional) - you can't use if/switch/?: statements
 
 ---
 Create Promise implementation
