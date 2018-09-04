@@ -37,6 +37,7 @@ Here I've noticed only questions from my interviews.
 - https://github.com/yangshun/tech-interview-handbook/blob/master/front-end/interview-questions.md - Front-end Job Interview Questions (and **Answers** - that might be most interesting for lazy persons who just want to know keys for interview )
 - https://github.com/wwwebman/front-end-interview-questions Our front end interview questions and answers can help you to prepare for an interview better and faster
 - https://github.com/kennymkchan/interview-questions-in-javascript A mostly reasonable collection of technical software development interview questions solved in Javascript
+- https://github.com/fejes713/30-seconds-of-interviews A curated collection of common interview questions to help you prepare for your next interview.
 
 ### More specific questions:
 
