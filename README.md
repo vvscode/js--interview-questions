@@ -39,6 +39,7 @@ Here I've noticed only questions from my interviews.
 - https://github.com/kennymkchan/interview-questions-in-javascript A mostly reasonable collection of technical software development interview questions solved in Javascript
 - https://github.com/fejes713/30-seconds-of-interviews A curated collection of common interview questions to help you prepare for your next interview.
 - https://github.com/rakesh-sankar/awesome-interview-question A curated list of interview questions of various domain.
+- https://github.com/ajzawawi/js-interview-prep A collection of JS interview questions ~~updated every day~~
 
 ### More specific questions:
 
