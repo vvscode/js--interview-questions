@@ -42,6 +42,7 @@ Here I've noticed only questions from my interviews.
 - https://github.com/ajzawawi/js-interview-prep A collection of JS interview questions ~~updated every day~~
 - https://github.com/monkey3310/full-stack-interview Full Stack Interview Questions & Answers (inc. js-stack)
 - https://github.com/sudheerj/reactjs-interview-questions List of top 222 ReactJS Interview Questions & Answers
+- https://github.com/Pau1fitz/react-interview  List of common React interview questions.
 
 ### More specific questions:
 
