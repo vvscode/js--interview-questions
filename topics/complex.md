@@ -375,3 +375,12 @@ for (var i = 0; i < arr.length; i++) {
   brr.push(arr[i]);
 }
 ```
+
+---
+
+Write a `matchSum(list, targetValue)` function. Which takes list of numbers and target sum and returns pair of elements which gives target sum.
+```
+matchSum([4, 7, 1, 8, 9], 11); // [4, 7]
+```
+- what if you need return all pairs?
+- could you implement linear complexity ?
