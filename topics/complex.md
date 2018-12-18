@@ -384,3 +384,7 @@ matchSum([4, 7, 1, 8, 9], 11); // [4, 7]
 ```
 - what if you need return all pairs?
 - could you implement linear complexity ?
+
+---
+
+Write your out `trim()` function (obviously - do not use `String.prototype.trim`). Extended: create `trim('zxc')` function which takes list of symbols to trim.
