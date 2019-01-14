@@ -388,3 +388,7 @@ matchSum([4, 7, 1, 8, 9], 11); // [4, 7]
 ---
 
 Write your out `trim()` function (obviously - do not use `String.prototype.trim`). Extended: create `trim('zxc')` function which takes list of symbols to trim.
+
+---
+
+Are you familiar with common.js modules? When inside module we are able to use `module` / `exports` ? *( what's the difference in usage `module.exports` / `exports` ?) )* Please implement your own `require` function with the same functionality, as original.
