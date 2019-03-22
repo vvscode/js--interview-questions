@@ -392,3 +392,25 @@ Write your out `trim()` function (obviously - do not use `String.prototype.trim`
 ---
 
 Are you familiar with common.js modules? When inside module we are able to use `module` / `exports` ? *( what's the difference in usage `module.exports` / `exports` ?) )* Please implement your own `require` function with the same functionality, as original.
+
+---
+
+__Light version__: Write a function checking that the given string is valid. We consider a string
+to be valid if all the characters of the string have exactly the same frequency.
+
+Examples:
+- `aabbcc` is a valid string
+- `aabbccc` is an invalid string
+
+__Extended version__: Check if the string is valid as it is (same condition as before) or if **one** character
+at one position can be removed from the string so it will become valid.
+
+Examples:
+- `aabbcc` -> __true__
+- `aabbcccc` -> __false__
+- `aabbccf` -> __true__
+- `aaabbbcccf` -> __true__
+- `aabbccc` -> __true__
+- `abcddff` -> __false__
+- `abcdefffff` -> __false__
+- `aabbccddd` -> __true__
