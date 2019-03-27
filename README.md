@@ -47,9 +47,11 @@ Here I've noticed only questions from my interviews.
 
 ### More specific questions:
 
-- https://www.codementor.io/reactjs/tutorial/5-essential-reactjs-interview-questions 5 Essential React.js Interview Questions
-- https://github.com/MaximAbramchuck/awesome-interview-questions (one more time ) Awesome Interviews - not only languages, but libraries/frameworks too
-- http://www.thatjsdude.com/interview/js1.html / http://www.thatjsdude.com/interview/js2.html -- JS Interview Algorithm ( beginner / intermediate )
+- [Top 50 React Interview Questions You Must Prepare In 2019](https://www.edureka.co/blog/interview-questions/react-interview-questions/)
+- [5 Essential React.js Interview Questions](https://www.codementor.io/reactjs/tutorial/5-essential-reactjs-interview-questions)
+- [(one more time ) Awesome Interviews - not only languages, but libraries/frameworks too](https://github.com/MaximAbramchuck/awesome-interview-questions)
+- JS Interview Algorithm [beginner](http://www.thatjsdude.com/interview/js1.html) / [intermediate](http://www.thatjsdude.com/interview/js2.html)
+- [13 Essential React.js Interview Questions](https://www.toptal.com/react/interview-questions)
 
 ### Also it may be helpful to check next books:
 
