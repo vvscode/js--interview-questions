@@ -414,3 +414,54 @@ Examples:
 - `abcddff` -> __false__
 - `abcdefffff` -> __false__
 - `aabbccddd` -> __true__
+
+---
+
+Again about brackets.
+
+Easy part:
+- '(', '{', '[' are called "openers".
+- ')', '}', ']' are called "closers".
+Write an efficient function that tells us whether input string's openers
+and closers are properly nested.
+
+
+Examples:
+```
+"{ [ ] ( ) }" -> true
+"{ [ ( ] ) }" -> false
+"{ [ }" -> false
+"class Example { public do() { return; } }" -> true
+"class Example { public do( { return; } }" -> false
+```
+
+Extra: handle also next types of brackes
+```
+<>
+''
+||
+```
+There might be multiple ways how to interpret lines `''''` (`'('')'` or `('')('')`) - in my concrete situation we agreed that we're closing bracket everytime we can. It influences to the cases like `'"'||'"'` which we interpret like `'("('(||)')")'`
+
+Tests we agreed during an interview:
+```javascript
+test('', true);
+test('some', true);
+test('(', false);
+test('()', true);
+test('()[', false);
+test('()[]', true);
+test(')', false);
+test('([)]', false);
+test('((', false);
+test('())', false);
+
+test('class Example { public do() { return; } }', true);
+test('class Example { public do( { return; } }', false);
+
+test("('['", false); 
+test("(')'", false);
+test('("("[]")")', true);
+test("(')'", false);
+test("'||'''", true)
+```
