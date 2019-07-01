@@ -1,6 +1,6 @@
-## JS interview questions
+# JS interview questions
 
-Repo from/for interviews for js-developer positions.
+Repo with notes from/for interviews for js-developer positions.
 
 - [Passing by value/reference](https://github.com/vvscode/js--interview-questions/blob/master/topics/passing-by-value-and-by-reference.md)
 - [Closures](https://github.com/vvscode/js--interview-questions/blob/master/topics/closures.md)
@@ -15,9 +15,9 @@ Repo from/for interviews for js-developer positions.
 
 ---
 
-Here I've noticed only questions from my interviews.
+Here I've noted only questions from my interviews.
 
-### If you want get more information/materials check next repos:
+## If you want to get more information/materials check next repos:
 
 - https://github.com/h5bp/Front-end-Developer-Interview-Questions -- not only about js
 - https://github.com/nishant8BITS/123-Essential-JavaScript-Interview-Question
@@ -45,7 +45,7 @@ Here I've noticed only questions from my interviews.
 - https://github.com/Pau1fitz/react-interview  List of common React interview questions.
 - https://github.com/ElemeFE/node-interview How to pass the Node.js interview of ElemeFE
 
-### More specific questions:
+## More specific questions:
 
 - [Top 50 React Interview Questions You Must Prepare In 2019](https://www.edureka.co/blog/interview-questions/react-interview-questions/)
 - [5 Essential React.js Interview Questions](https://www.codementor.io/reactjs/tutorial/5-essential-reactjs-interview-questions)
@@ -53,7 +53,7 @@ Here I've noticed only questions from my interviews.
 - JS Interview Algorithm [beginner](http://www.thatjsdude.com/interview/js1.html) / [intermediate](http://www.thatjsdude.com/interview/js2.html)
 - [13 Essential React.js Interview Questions](https://www.toptal.com/react/interview-questions)
 
-### Also it may be helpful to check next books:
+## Also it may be helpful to check next books:
 
 - **"Javascript Technical Interview Questions"** by Xuanyi Chew https://leanpub.com/jsinterviewquestions
 - **"Quick JavaScript Interview Questions"** by Sandeep Kumar Patel https://leanpub.com/quickjavascriptinterviewquestions
@@ -63,14 +63,14 @@ Here I've noticed only questions from my interviews.
 - https://www.interviewcake.com/javascript-interview-questions ( JavaScript Interview Questions, like "Merging Meeting Times", "Two Egg Problem" -- the exersizes/questions can be solved no only via js - they are more algorithmic and give you mental pabulum ). Both - tasks/solutions are pretty cool
 - https://github.com/yangshun/tech-interview-handbook **Tech Interview Handbook** (Algorithms, front end and behavioral content for rocking your coding interview)
 
-### Some ideas can be found during online tests. Like next:
+## Some ideas can be found during online tests. Like next:
 
 - https://tests4geeks.com/category/javascript
 - http://perfectionkills.com/javascript-quiz-es6/ ( also check explains at https://gist.github.com/DmitrySoshnikov/3928607cb8fdba42e712 )
 - http://dmitry.baranovskiy.com/post/91403200 - So, you think you know JavaScript? it's usefull to read https://www.nczonline.net/blog/2010/01/26/answering-baranovskiys-javascript-quiz/ )
 - http://perfectionkills.com/javascript-quiz/ (
 
-### You can get more practice in interview questions at:
+## You can get more practice in interview questions at:
 
 - https://codesignal.com/interview-practice
 - https://www.pramp.com
