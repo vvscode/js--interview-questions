@@ -465,3 +465,45 @@ test('("("[]")")', true);
 test("(')'", false);
 test("'||'''", true)
 ```
+
+---
+Your task is to embed a third-party video player library called SimplePlayer
+into your application.
+Here is an extract from the SimplePlayer API documentation:
+```
+CLASS:
+   SimplePlayer
+
+CONSTRUCTOR:
+   new SimplePlayer(manifestUri)
+       where manifestUri is the URI of video stream manifest
+
+METHODS:
+   play()
+       initiate playback of video stream
+   pause()
+       pause playback of video stream
+   getPlaybackStatus()
+       get the playback status of the current video stream, returns a
+       one of the following strings: "PLAYING", "STOPPED" or "BUFFERING"
+   addPlaybackStatusListener(callback)
+       allows a callback to be set that is executed whenever
+       the playback status changes. The playback status ("PLAYING", "STOPPED"
+       or "BUFFERING") is passed to the callback as the only argument.
+```
+
+QUESTIONS:
+   1. Create a basic test application in your chosen programming language that
+      performs the following functions:
+
+         a) creates an instance of SimplePlayer
+
+         b) invokes the play command
+
+         c) logs the playback status to the console
+
+   2. Extend the code you have written with a "bufferMonitor" function which prints
+      "too much buffering" to the console when the player is buffering continuously
+      for more than one minute
+   3. If necessary refactor your code so that it is possible to unit test the
+      bufferMonitor function (without mocking of setTimeout via testing frameworks and using of fake timers), then write appropriate unit tests. 
