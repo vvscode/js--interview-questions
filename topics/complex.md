@@ -507,3 +507,16 @@ QUESTIONS:
       for more than one minute
    3. If necessary refactor your code so that it is possible to unit test the
       bufferMonitor function (without mocking of setTimeout via testing frameworks and using of fake timers), then write appropriate unit tests. 
+      
+      
+---
+
+Given a string S consisting of lowercase English characters determine if you can make it a palindrome by removing at most 1 character.
+
+```
+tacocats -> tacocat
+racercar -> racecar or racrcar
+kbayak -> kayak
+acbccba -> abccba
+abccbca -> abccba
+```
