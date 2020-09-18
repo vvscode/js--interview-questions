@@ -52,6 +52,7 @@ Here I've noted only questions from my interviews.
 - [(one more time ) Awesome Interviews - not only languages, but libraries/frameworks too](https://github.com/MaximAbramchuck/awesome-interview-questions)
 - JS Interview Algorithm [beginner](http://www.thatjsdude.com/interview/js1.html) / [intermediate](http://www.thatjsdude.com/interview/js2.html)
 - [13 Essential React.js Interview Questions](https://www.toptal.com/react/interview-questions)
+- [React Interview Questions and Answers](https://www.interviewbit.com/react-interview-questions/)
 
 ## Also it may be helpful to check next books:
 
