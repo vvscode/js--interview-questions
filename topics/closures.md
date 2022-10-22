@@ -108,3 +108,17 @@ console.log(hof(3, 4)(5, 6)(7)); // 25
 console.log(hof(4, 5)(6)(7, 8)); // 30
 console.log(hof(5)(6)(7)(8)(9)); // 35
 ```
+
+---
+
+Write a function that takes any function a return the same function with caching feature
+
+```javascript
+const add = (a, b) => a + b;
+
+const modifiedAdd = your_function(add);
+
+modifiedAdd(1,2) /* will calculate 1 + 2 */
+modifiedAdd(5,6) /* will calculate 5 + 6 */
+
+modifiedAdd(1,2) /* already called this function with (1,2) arguments so it will not calculate again for 1 and 2, function will directly return answer from the cache i.e. 3.
