@@ -266,3 +266,14 @@ are next expressions equal ? what's the result for both?
 1 << 33
 (1 << 31) << 2
 ```
+
+---
+What will be the output
+
+```javascript
+let y = 1;
+if (function F(){}) {
+  y += typeof F;
+}
+console.log(y);
+```
