@@ -1,6 +1,8 @@
 # Closures
 
 What is the output? ( How make it correct )
+
+<!-- prettier-ignore-start -->
 ```javascript
 for (var i = 0; i < 5; i++) {
   setTimeout(function() {
@@ -8,8 +10,10 @@ for (var i = 0; i < 5; i++) {
   }, 1000);
 }
 ```
+<!-- prettier-ignore-end -->
 ---
 What is the output?
+<!-- prettier-ignore-start -->
 ```javascript
 var func = [];
 for (var i = 0; i < 5; i++) {
@@ -19,23 +23,29 @@ for (var i = 0; i < 5; i++) {
 }
 func[3]();
 ```
+<!-- prettier-ignore-end -->
 ---
 What is the output?
+<!-- prettier-ignore-start -->
 ```javascript
 (function() {
   var a = b = 5;
 })();
 console.log(b);
 ```
+<!-- prettier-ignore-end -->
 ---
 Create code for next conditions
+<!-- prettier-ignore-start -->
 ```javascript
 function calculate() {/* put your code here */}
 calculate('+')(1)(2); // 3
 calculate('*')(2)(3); // 6
 ```
+<!-- prettier-ignore-end -->
 ---
 Create code for next conditions
+<!-- prettier-ignore-start -->
 ```javascript
 var sum = function() { /* put your code here */};
 var s = sum();
@@ -44,10 +54,13 @@ alert(s(1)); // 1
 alert(s(1)(2)); //3
 alert(s(3)(4)(5)); // 12
 ```
+<!-- prettier-ignore-end -->
 
-lighter version might use `sum(1)(2)()` with empty `()` at the end
----
+## lighter version might use `sum(1)(2)()` with empty `()` at the end
+
 What is the output?
+
+<!-- prettier-ignore-start -->
 ```javascript
 (function(x) {
     return (function(y) {
@@ -55,8 +68,10 @@ What is the output?
     })(2)
 })(1);
 ```
+<!-- prettier-ignore-end -->
 ---
 What do next code do?
+<!-- prettier-ignore-start -->
 ```html
 <button id="btn-0">Button 1!</button>
 <button id="btn-1">Button 2!</button>
@@ -72,8 +87,10 @@ What do next code do?
     }
 </script>
 ```
+<!-- prettier-ignore-end -->
 ---
 what output will be?
+<!-- prettier-ignore-start -->
 ```javascript
 const fn = () => {
  let a = 1;
@@ -90,8 +107,10 @@ const fnRes2 = fn();
 alert(fnRes2());
 alert(fnRes2());
 ```
+<!-- prettier-ignore-end -->
 ---
 
+<!-- prettier-ignore-start -->
 ```javascript
 /*
 - Do you understand the closure?
@@ -108,3 +127,4 @@ console.log(hof(3, 4)(5, 6)(7)); // 25
 console.log(hof(4, 5)(6)(7, 8)); // 30
 console.log(hof(5)(6)(7)(8)(9)); // 35
 ```
+<!-- prettier-ignore-end -->

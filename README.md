@@ -42,7 +42,7 @@ Here I've noted only questions from my interviews.
 - https://github.com/ajzawawi/js-interview-prep A collection of JS interview questions ~~updated every day~~
 - https://github.com/monkey3310/full-stack-interview Full Stack Interview Questions & Answers (inc. js-stack)
 - https://github.com/sudheerj/reactjs-interview-questions List of top 222 ReactJS Interview Questions & Answers
-- https://github.com/Pau1fitz/react-interview  List of common React interview questions.
+- https://github.com/Pau1fitz/react-interview List of common React interview questions.
 - https://github.com/ElemeFE/node-interview How to pass the Node.js interview of ElemeFE
 - https://www.adaface.com/blog/react-interview-questions/ 100+ React Interview Questions (2020)
 
@@ -79,7 +79,6 @@ Here I've noted only questions from my interviews.
 - https://www.pramp.com
 - https://interviewbuddy.in
 - http://www.gainlo.co
-
 
 If you're ready to share your experience - you're welcome. Make PR to related file ( by topic ) or create issue with list of questions
 

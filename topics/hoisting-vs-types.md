@@ -1,6 +1,8 @@
 # Hoisting and types
 
 What is the output?
+
+<!-- prettier-ignore-start -->
 ```javascript
 var a = 1;
 function b() {
@@ -12,8 +14,10 @@ function b() {
 b();
 console.log(a);
 ```
+<!-- prettier-ignore-end -->
 ---
 What is the output?
+<!-- prettier-ignore-start -->
 ```javascript
 var a = {};
 var b = { key: 'b' };
@@ -23,21 +27,29 @@ a[b] = 123;
 a[c] = 456;
 console.log(a[b]);
 ```
+<!-- prettier-ignore-end -->
 ---
 What is the output?
+<!-- prettier-ignore-start -->
 ```javascript
 console.log("1" + 2);
 console.log(2 + "1");
 console.log(1 + 2 + 3 + 4 + "5");
 ```
+<!-- prettier-ignore-end -->
+
 What for use next contruction?
+
+<!-- prettier-ignore-start -->
 ```javascript
 function greetAll() {
   var args = Array.prototype.slice.call(arguments, 0);
 }
 ```
+<!-- prettier-ignore-end -->
 ---
 What is the output?
+<!-- prettier-ignore-start -->
 ```javascript
 function test() {
   console.log(a);
@@ -51,8 +63,10 @@ function test() {
 }
 test();
 ```
+<!-- prettier-ignore-end -->
 ---
 What is the output?
+<!-- prettier-ignore-start -->
 ```javascript
 (function() {
   alert(inner);
@@ -62,7 +76,11 @@ What is the output?
   }
 })();
 ```
+<!-- prettier-ignore-end -->
+
 What is the output?
+
+<!-- prettier-ignore-start -->
 ```javascript
 (function {
   alert(inner);
@@ -72,7 +90,11 @@ What is the output?
   }
 })();
 ```
+<!-- prettier-ignore-end -->
+
 What is the output?
+
+<!-- prettier-ignore-start -->
 ```javascript
 (function() {
   f();
@@ -85,8 +107,10 @@ function f() {
 }
 f();
 ```
+<!-- prettier-ignore-end -->
 ---
 What is the output?
+<!-- prettier-ignore-start -->
 ```javascript
 (function() {
   var x = 1;
@@ -96,33 +120,43 @@ What is the output?
   console.log(x);
 })();
 ```
+<!-- prettier-ignore-end -->
 ---
 `number / undefined / function / Error` ?
+<!-- prettier-ignore-start -->
 ```javascript
 var f = function g(){ return 23; };
 typeof g();
 ```
+<!-- prettier-ignore-end -->
 ---
 what is x ?
+<!-- prettier-ignore-start -->
 ```javascript
 var y = 1, x = y = typeof x;
 x;
 ```
+<!-- prettier-ignore-end -->
 ---
 Output?
+<!-- prettier-ignore-start -->
 ```javascript
 var x = [typeof x, typeof y][1];
 typeof typeof x;
 ```
+<!-- prettier-ignore-end -->
 ---
 Output?  Just be attentive
+<!-- prettier-ignore-start -->
 ```javascript
 (function(foo){
   return typeof foo.bar;
 })({ foo: { bar: 1 } });
 ```
+<!-- prettier-ignore-end -->
 ---
 Output
+<!-- prettier-ignore-start -->
 ```javascript
 (function() {
     logMe();
@@ -137,18 +171,24 @@ Output
     logMe();
 })();
 ```
+<!-- prettier-ignore-end -->
 ---
 result?
+<!-- prettier-ignore-start -->
 ```javascript
 new String('Hello') === 'Hello'
 ```
+<!-- prettier-ignore-end -->
 ---
 result?
+<!-- prettier-ignore-start -->
 ```javascript
 "This is a string" instanceof String;
 ```
+<!-- prettier-ignore-end -->
 ---
 output ?
+<!-- prettier-ignore-start -->
 ```javascript
 var a = 1;
 var b = function() {
@@ -160,14 +200,18 @@ var b = function() {
 };
 console.log(b(), a);
 ```
+<!-- prettier-ignore-end -->
 ---
 output?
+<!-- prettier-ignore-start -->
 ```javascript
 var x = [typeof x, typeof y][1];
 typeof typeof x;
 ```
+<!-- prettier-ignore-end -->
 ---
 output?
+<!-- prettier-ignore-start -->
 ```javascript
 (function f(){
   function f(){ return 1; }
@@ -175,14 +219,18 @@ output?
   function f(){ return 2; }
 })();
 ```
+<!-- prettier-ignore-end -->
 ---
 result?
+<!-- prettier-ignore-start -->
 ```javascript
 function f(){ return f; }
 new f() instanceof f;
 ```
+<!-- prettier-ignore-end -->
 ---
 output?
+<!-- prettier-ignore-start -->
 ```javascript
 var text = 'outside';
 function logIt(){
@@ -191,8 +239,10 @@ function logIt(){
 };
 logIt();
 ```
+<!-- prettier-ignore-end -->
 ---
 output? ( nb: answer depends on environment / browser )
+<!-- prettier-ignore-start -->
 ```javascript
 (function() {
  var a = 'initial';
@@ -204,8 +254,10 @@ output? ( nb: answer depends on environment / browser )
   f();
 })();
 ```
+<!-- prettier-ignore-end -->
 ---
 output?
+<!-- prettier-ignore-start -->
 ```javascript
 (function() {
  var a = 0;
@@ -217,8 +269,10 @@ output?
   }
 })();
 ```
+<!-- prettier-ignore-end -->
 ---
 What does the following code do? And why? ( quirks )
+<!-- prettier-ignore-start -->
 ```javascript
 falseStr = "false";
 if(true){
@@ -229,6 +283,7 @@ if(true){
   }
 }
 ```
+<!-- prettier-ignore-end -->
 ---
 how to check if something is object?
 NB: asker should keep in mind:
@@ -238,20 +293,25 @@ NB: asker should keep in mind:
 
 ---
 output?
+<!-- prettier-ignore-start -->
 ```javascript
 var a = (1,2,3);
 console.log(a);
 ```
+<!-- prettier-ignore-end -->
 ---
 What will be the output?
+<!-- prettier-ignore-start -->
 ```javascript
 (function() {
    var a = b = 5;
 })();
 console.log(b);
 ```
+<!-- prettier-ignore-end -->
 ---
 output?
+<!-- prettier-ignore-start -->
 ```javascript
 var text = 'outside';
 function logIt(){
@@ -260,13 +320,18 @@ function logIt(){
 };
 logIt();
 ```
+<!-- prettier-ignore-end -->
 ---
 is it possible to have 
+<!-- prettier-ignore-start -->
 ```javascript
 (a == 1 && a == 2 && a == 3); // true 
 ```
+<!-- prettier-ignore-end -->
 
 by https://twitter.com/hugojmd/status/953763304958255105
+
+<!-- prettier-ignore-start -->
 ```javascript
 var a = {
   currentValue: 0,
@@ -277,10 +342,13 @@ var a = {
 var eq = (a == 1 && a == 2 && a == 3);
 console.log(eq); // awesome =)
 ```
+<!-- prettier-ignore-end -->
 
 ---
+
 what whould be the output?
 
+<!-- prettier-ignore-start -->
 ```javascript
 foo();
 
@@ -296,3 +364,4 @@ function foo() {
 
 foo();
 ```
+<!-- prettier-ignore-end -->
