@@ -72,6 +72,7 @@ Here I've noted only questions from my interviews.
 - http://dmitry.baranovskiy.com/post/91403200 - So, you think you know JavaScript? it's usefull to read https://www.nczonline.net/blog/2010/01/26/answering-baranovskiys-javascript-quiz/ )
 - http://perfectionkills.com/javascript-quiz/
 - https://www.adaface.com/assessment-test/javascript-online-test
+- https://www.scaler.com/topics/javascript/
 
 ## You can get more practice in interview questions at:
 
